@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<versions>
+<version>
+    <platform>Windows Intel-compatible 64-bit</platform>
+    <dbplatform>windows_x86_64</dbplatform>
+    <description>Recommended version</description>
+    <date>24 November 2025</date>
+    <version_num>8.2.8</version_num>
+    <installer>Windows installer</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_8.2.8_windows_x86_64.exe</url>
+    <filename>boinc_8.2.8_windows_x86_64.exe</filename>
+    <size_mb>16.97</size_mb>
+</version>
+<version>
+    <platform>Windows ARM 64-bit</platform>
+    <dbplatform>windows_arm64</dbplatform>
+    <description>Recommended version</description>
+    <date>24 November 2025</date>
+    <version_num>8.2.8</version_num>
+    <installer>Windows installer</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_8.2.8_windows_arm64.exe</url>
+    <filename>boinc_8.2.8_windows_arm64.exe</filename>
+    <size_mb>16.94</size_mb>
+</version>
+<version>
+    <platform>Windows Intel-compatible 32-bit</platform>
+    <dbplatform>windows_intelx86</dbplatform>
+    <description>Recommended version</description>
+    <date>11 October 2018</date>
+    <version_num>7.14.2</version_num>
+    <installer>Windows installer</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.14.2_windows_intelx86.exe</url>
+    <filename>boinc_7.14.2_windows_intelx86.exe</filename>
+    <size_mb>8.67</size_mb>
+</version>
+<version>
+    <platform>Windows Intel-compatible 32-bit</platform>
+    <dbplatform>windows_intelx86</dbplatform>
+    <description>Older version (also works on Windows 98 and ME)</description>
+    <date>28 Oct 2009</date>
+    <version_num>6.6.38</version_num>
+    <installer>Windows installer</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_6.6.38_windows_intelx86.exe</url>
+    <filename>boinc_6.6.38_windows_intelx86.exe</filename>
+    <size_mb>6.69</size_mb>
+</version>
+<version>
+    <platform>Windows Intel-compatible 32-bit</platform>
+    <dbplatform>windows_intelx86</dbplatform>
+    <description>Older version (also works on Windows 95 and NT 4.0)</description>
+    <date>1 Mar 2007</date>
+    <version_num>5.8.16</version_num>
+    <installer>Windows installer</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_5.8.16_windows_intelx86.exe</url>
+    <filename>boinc_5.8.16_windows_intelx86.exe</filename>
+    <size_mb>8.36</size_mb>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Recommended version</description>
+    <date>24 Nov 2025</date>
+    <version_num>8.2.8</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_8.2.8_macOSX_universal.zip</url>
+    <filename>boinc_8.2.8_macOSX_universal.zip</filename>
+    <size_mb>15.43</size_mb>
+    <min_os_version>101300</min_os_version>
+    <max_os_version>999999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Recommended version (Unix command-line version) (MacOS 10.13+)</description>
+    <date>24 Nov 2025</date>
+    <version_num>8.2.8</version_num>
+    <installer>Command-line client (no GUI)</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_8.2.8_universal-apple-darwin.dmg</url>
+    <filename>boinc_8.2.8_universal-apple-darwin.dmg</filename>
+    <size_mb>5.45</size_mb>
+    <min_os_version>101300</min_os_version>
+    <max_os_version>999999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Older version</description>
+    <date>8 Jun 2025</date>
+    <version_num>8.2.4</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_8.2.4_macOSX_universal.zip</url>
+    <filename>boinc_8.2.4_macOSX_universal.zip</filename>
+    <size_mb>14.29</size_mb>
+    <min_os_version>101300</min_os_version>
+    <max_os_version>999999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Older version (MacOS 10.10 - MacOS 12.x)</description>
+    <date>19 Jul 2022</date>
+    <version_num>7.20.2</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.20.2_macOSX_universal.zip</url>
+    <filename>boinc_7.20.2_macOSX_universal.zip</filename>
+    <size_mb>15.96</size_mb>
+    <min_os_version>101000</min_os_version>
+    <max_os_version>129999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Older version (Unix command-line version) (MacOS 10.10 - MacOS 12.x)</description>
+    <date>19 Jul 2022</date>
+    <version_num>7.20.2</version_num>
+    <installer>Command-line client (no GUI)</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.20.2_universal-apple-darwin.dmg</url>
+    <filename>boinc_7.20.2_universal-apple-darwin.dmg</filename>
+    <size_mb>4.62</size_mb>
+    <min_os_version>101000</min_os_version>
+    <max_os_version>129999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Older version (MacOS 10.9 - MacOS 12.x)</description>
+    <date>23 Mar 2022</date>
+    <version_num>7.16.21</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.16.21_macOSX_universal.zip</url>
+    <filename>boinc_7.16.21_macOSX_universal.zip</filename>
+    <size_mb>14.77</size_mb>
+    <min_os_version>100900</min_os_version>
+    <max_os_version>129999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Older version (Unix command-line version) (MacOS 10.9 - MacOS 12.x)</description>
+    <date>23 Mar 2022</date>
+    <version_num>7.16.21</version_num>
+    <installer>Command-line client (no GUI)</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.16.21_universal-apple-darwin.dmg</url>
+    <filename>boinc_7.16.21_universal-apple-darwin.dmg</filename>
+    <size_mb>3.77</size_mb>
+    <min_os_version>100900</min_os_version>
+    <max_os_version>129999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>arm64-apple-darwin</dbplatform>
+    <description>Recommended version</description>
+    <date>24 Nov 2025</date>
+    <version_num>8.2.8</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_8.2.8_macOSX_universal.zip</url>
+    <filename>boinc_8.2.8_macOSX_universal.zip</filename>
+    <size_mb>15.43</size_mb>
+    <min_os_version>101300</min_os_version>
+    <max_os_version>999999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>arm64-apple-darwin</dbplatform>
+    <description>Recommended version (Unix command-line version) (MacOS 10.13+)</description>
+    <date>24 Nov 2025</date>
+    <version_num>8.2.8</version_num>
+    <installer>Command-line client (no GUI)</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_8.2.8_universal-apple-darwin.dmg</url>
+    <filename>boinc_8.2.8_universal-apple-darwin.dmg</filename>
+    <size_mb>5.45</size_mb>
+    <min_os_version>101300</min_os_version>
+    <max_os_version>999999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>arm64-apple-darwin</dbplatform>
+    <description>Recommended version (MacOS 10.13+)</description>
+    <date>30 May 2024</date>
+    <version_num>8.0.2</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_8.0.2_macOSX_universal.zip</url>
+    <filename>boinc_8.0.2_macOSX_universal.zip</filename>
+    <size_mb>15.28</size_mb>
+    <min_os_version>101300</min_os_version>
+    <max_os_version>999999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>arm64-apple-darwin</dbplatform>
+    <description>Recommended version (Unix command-line version) (MacOS 10.13+)</description>
+    <date>30 May 2024</date>
+    <version_num>8.0.2</version_num>
+    <installer>Command-line client (no GUI)</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_8.0.2_universal-apple-darwin.dmg</url>
+    <filename>boinc_8.0.2_universal-apple-darwin.dmg</filename>
+    <size_mb>4.50</size_mb>
+    <min_os_version>101300</min_os_version>
+    <max_os_version>999999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>arm64-apple-darwin</dbplatform>
+    <description>Older version (MacOS 10.10 - MacOS 12.x)</description>
+    <date>19 Jul 2022</date>
+    <version_num>7.20.2</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.20.2_macOSX_universal.zip</url>
+    <filename>boinc_7.20.2_macOSX_universal.zip</filename>
+    <size_mb>15.96</size_mb>
+    <min_os_version>101000</min_os_version>
+    <max_os_version>129999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>arm64-apple-darwin</dbplatform>
+    <description>Older version (Unix command-line version) (MacOS 10.10 - MacOS 12.x)</description>
+    <date>19 Jul 2022</date>
+    <version_num>7.20.2</version_num>
+    <installer>Command-line client (no GUI)</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.20.2_universal-apple-darwin.dmg</url>
+    <filename>boinc_7.20.2_universal-apple-darwin.dmg</filename>
+    <size_mb>4.62</size_mb>
+    <min_os_version>101000</min_os_version>
+    <max_os_version>129999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>arm64-apple-darwin</dbplatform>
+    <description>Older version (MacOS 10.9 - MacOS 12.x)</description>
+    <date>23 Mar 2022</date>
+    <version_num>7.16.21</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.16.21_macOSX_universal.zip</url>
+    <filename>boinc_7.16.21_macOSX_universal.zip</filename>
+    <size_mb>14.77</size_mb>
+    <min_os_version>100900</min_os_version>
+    <max_os_version>129999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel and Apple Silicon)</platform>
+    <dbplatform>arm64-apple-darwin</dbplatform>
+    <description>Older version (Unix command-line version) (MacOS 10.9 - MacOS 12.x)</description>
+    <date>23 Mar 2022</date>
+    <version_num>7.16.21</version_num>
+    <installer>Command-line client (no GUI)</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.16.21_universal-apple-darwin.dmg</url>
+    <filename>boinc_7.16.21_universal-apple-darwin.dmg</filename>
+    <size_mb>3.77</size_mb>
+    <min_os_version>100900</min_os_version>
+    <max_os_version>129999</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Recommended version</description>
+    <date>30 Aug 2020</date>
+    <version_num>7.16.11</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.16.11_macOSX_x86_64.zip</url>
+    <filename>boinc_7.16.11_macOSX_x86_64.zip</filename>
+    <size_mb>9.36</size_mb>
+    <min_os_version>100700</min_os_version>
+    <max_os_version>100899</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Recommended version (Unix command-line version)</description>
+    <date>30 Aug 2020</date>
+    <version_num>7.16.11</version_num>
+    <installer>Command-line client (no GUI)</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.16.11_x86_64-apple-darwin.zip</url>
+    <filename>boinc_7.16.11_x86_64-apple-darwin.zip</filename>
+    <size_mb>1.85</size_mb>
+    <min_os_version>100700</min_os_version>
+    <max_os_version>100899</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Older version</description>
+    <date>3 April 2020</date>
+    <version_num>7.16.6</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.16.6_macOSX_x86_64.zip</url>
+    <filename>boinc_7.16.6_macOSX_x86_64.zip</filename>
+    <size_mb>8.19</size_mb>
+    <min_os_version>100700</min_os_version>
+    <max_os_version>100899</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (64-bit Intel)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Older version (Unix command-line version)</description>
+    <date>3 April 2020</date>
+    <version_num>7.16.6</version_num>
+    <installer>Command-line client (no GUI)</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.16.6_x86_64-apple-darwin.zip</url>
+    <filename>boinc_7.16.6_x86_64-apple-darwin.zip</filename>
+    <size_mb>1.74</size_mb>
+    <min_os_version>100700</min_os_version>
+    <max_os_version>100899</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (32-bit or 64-bit Intel)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Recommended version</description>
+    <date>28 Feb 2014</date>
+    <version_num>7.2.42</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.2.42_macOSX_i686.zip</url>
+    <filename>boinc_7.2.42_macOSX_i686.zip</filename>
+    <size_mb>6.67</size_mb>
+    <min_os_version>100400</min_os_version>
+    <max_os_version>100699</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (32-bit or 64-bit Intel)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Recommended version (Unix command-line version)</description>
+    <date>28 Feb 2014</date>
+    <version_num>7.2.42</version_num>
+    <installer>Command-line client (no GUI)</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.2.42_i686-apple-darwin.zip</url>
+    <filename>boinc_7.2.42_i686-apple-darwin.zip</filename>
+    <size_mb>1.37</size_mb>
+    <min_os_version>100400</min_os_version>
+    <max_os_version>100699</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (32-bit or 64-bit Intel)</platform>
+    <dbplatform>x86_64-apple-darwin</dbplatform>
+    <description>Certificate updater for old versions of BOINC before 7.9.1 only</description>
+    <date>28 April 2018</date>
+    <version_num>any</version_num>
+    <installer></installer>
+    <url>https://boinc.berkeley.edu/dl/update_boinc_certificate.zip</url>
+    <filename>update_boinc_certificate.zip</filename>
+    <size_mb>0.13</size_mb>
+</version>
+<version>
+    <platform>Apple Mac (Power PC or 32-bit Intel)</platform>
+    <dbplatform>powerpc-apple-darwin</dbplatform>
+    <description>Recommended version</description>
+    <date>11 Aug 2011</date>
+    <version_num>6.12.35</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_6.12.35_macOSX_universal.zip</url>
+    <filename>boinc_6.12.35_macOSX_universal.zip</filename>
+    <size_mb>6.71</size_mb>
+    <min_os_version>100400</min_os_version>
+    <max_os_version>100699</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (Power PC or 32-bit Intel)</platform>
+    <dbplatform>powerpc-apple-darwin</dbplatform>
+    <description>Recommended version (Unix command-line version)</description>
+    <date>11 Aug 2011</date>
+    <version_num>6.12.35</version_num>
+    <installer>Command-line client (no GUI)</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_6.12.35_universal-apple-darwin.zip</url>
+    <filename>boinc_6.12.35_universal-apple-darwin.zip</filename>
+    <size_mb>1.00</size_mb>
+    <min_os_version>100400</min_os_version>
+    <max_os_version>100699</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (Power PC or 32-bit Intel)</platform>
+    <dbplatform>powerpc-apple-darwin</dbplatform>
+    <description>Older version (standard GUI) (works on OS 10.3.9 - OS 10.5.8)</description>
+    <date>10 June 2009</date>
+    <version_num>6.6.36</version_num>
+    <installer>Standard GUI</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_6.6.36_macOSX_universal.zip</url>
+    <filename>boinc_6.6.36_macOSX_universal.zip</filename>
+    <size_mb>6.06</size_mb>
+    <min_os_version>100309</min_os_version>
+    <max_os_version>100599</max_os_version>
+</version>
+<version>
+    <platform>Apple Mac (Power PC or 32-bit Intel)</platform>
+    <dbplatform>powerpc-apple-darwin</dbplatform>
+    <description>Older version (Unix command-line version) (works on OS 10.3.9 - OS 10.5.8)</description>
+    <date>10 June 2009</date>
+    <version_num>6.6.36</version_num>
+    <installer>Command-line client (no GUI)</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_6.6.36_universal-apple-darwin.zip</url>
+    <filename>boinc_6.6.36_universal-apple-darwin.zip</filename>
+    <size_mb>1.20</size_mb>
+    <min_os_version>100309</min_os_version>
+    <max_os_version>100599</max_os_version>
+</version>
+<version>
+    <platform>Linux (x64 and ARM64)</platform>
+    <dbplatform>x86_64-pc-linux-gnu</dbplatform>
+    <description>Recommended version</description>
+    <date>15 July 2025</date>
+    <version_num>8.2.4</version_num>
+    <installer>Linux package</installer>
+</version>
+<version>
+    <platform>Linux (x86)</platform>
+    <dbplatform>i686-pc-linux-gnu</dbplatform>
+    <description>Recommended version</description>
+    <date>17 Sept 2014</date>
+    <version_num>7.4.22</version_num>
+    <installer>Self-extracting archive</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_7.4.22_i686-pc-linux-gnu.sh</url>
+    <filename>boinc_7.4.22_i686-pc-linux-gnu.sh</filename>
+    <size_mb>5.14</size_mb>
+</version>
+<version>
+    <platform>Older Linux (x86 and x64)</platform>
+    <dbplatform>i686-pc-linux-gnu</dbplatform>
+    <description>Recommended version</description>
+    <date>6 Apr 2011</date>
+    <version_num>6.12.22</version_num>
+    <installer>Self-extracting archive</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_compat_6.12.22_i686-pc-linux-gnu.sh</url>
+    <filename>boinc_compat_6.12.22_i686-pc-linux-gnu.sh</filename>
+    <size_mb>1.69</size_mb>
+</version>
+<version>
+    <platform>Android</platform>
+    <dbplatform>arm-android-linux-gnu</dbplatform>
+    <description>Recommended version</description>
+    <date>24 Nov 2025</date>
+    <version_num>8.2.8</version_num>
+    <installer>Android Installer</installer>
+    <url>https://boinc.berkeley.edu/dl/boinc_8.2.8.apk</url>
+    <filename>boinc_8.2.8.apk</filename>
+    <size_mb>18.76</size_mb>
+</version>
+<boinc_buda_runner_version>4</boinc_buda_runner_version>
+
+</versions>

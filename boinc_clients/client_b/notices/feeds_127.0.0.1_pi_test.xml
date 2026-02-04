@@ -1,0 +1,7 @@
+<rss_feeds>
+  <rss_feed>
+    <url>http://127.0.0.1/pi_test/notices.php?userid=1&amp;auth=1_e8dac500e99d4df1091ba617ee16c03f</url>
+    <poll_interval>86400.000000</poll_interval>
+    <next_poll_time>0.000000</next_poll_time>
+  </rss_feed>
+</rss_feeds>

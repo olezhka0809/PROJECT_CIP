@@ -1,0 +1,1344 @@
+[2026/01/24 19:17:27] Executing command: file_deleter -d 3
+2026-01-24 19:17:27.2453  Starting
+2026-01-25 01:37:27.9159  Starting
+2026-01-25 01:42:43.2105  [WU#1] deleting wu_10m.txt
+2026-01-25 01:42:43.2106 [CRITICAL] [WU#1] unlink wu_10m.txt failed: Error -1
+2026-01-25 01:42:43.2106  [WU#1] deleting wu_10m.txt.md5
+2026-01-25 01:42:43.2107 [CRITICAL] [WU#1] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 01:42:43.2107 [CRITICAL] [WU#1] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2259 [CRITICAL] [RESULT#4] unlink /home/helgidev08/projects/pi_test/upload/3aa/pi_wu_manual_3_0_r1128838501_0 error: Error -1 Permission denied
+2026-01-25 01:42:53.2259 [CRITICAL] [RESULT#4] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2357 [CRITICAL] [RESULT#5] unlink /home/helgidev08/projects/pi_test/upload/305/pi_wu_auto_1_1769297368_0_r1046141123_0 error: Error -1 Permission denied
+2026-01-25 01:42:53.2358 [CRITICAL] [RESULT#5] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2382 [CRITICAL] [RESULT#6] unlink /home/helgidev08/projects/pi_test/upload/38c/pi_wu_auto_2_1769297368_0_r1204450658_0 error: Error -1 Permission denied
+2026-01-25 01:42:53.2382 [CRITICAL] [RESULT#6] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2426 [CRITICAL] [RESULT#7] unlink /home/helgidev08/projects/pi_test/upload/2f4/pi_wu_auto_3_1769297368_0_r1590376539_0 error: Error -1 Permission denied
+2026-01-25 01:42:53.2427 [CRITICAL] [RESULT#7] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2444 [CRITICAL] [RESULT#8] unlink /home/helgidev08/projects/pi_test/upload/3ae/pi_wu_auto_4_1769297368_0_r1101902845_0 error: Error -1 Permission denied
+2026-01-25 01:42:53.2444 [CRITICAL] [RESULT#8] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2461 [CRITICAL] [RESULT#9] unlink /home/helgidev08/projects/pi_test/upload/159/pi_wu_auto_5_1769297368_0_r889426544_0 error: Error -1 Permission denied
+2026-01-25 01:42:53.2461 [CRITICAL] [RESULT#9] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2478 [CRITICAL] [RESULT#10] unlink /home/helgidev08/projects/pi_test/upload/300/pi_wu_auto_6_1769297368_0_r361782812_0 error: Error -1 Permission denied
+2026-01-25 01:42:53.2479 [CRITICAL] [RESULT#10] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2498 [CRITICAL] [RESULT#11] unlink /home/helgidev08/projects/pi_test/upload/397/pi_wu_auto_7_1769297368_0_r1580065176_0 error: Error -1 Permission denied
+2026-01-25 01:42:53.2498 [CRITICAL] [RESULT#11] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2520 [CRITICAL] [RESULT#12] unlink /home/helgidev08/projects/pi_test/upload/c9/pi_wu_auto_8_1769297368_0_r1010096628_0 error: Error -1 Permission denied
+2026-01-25 01:42:53.2521 [CRITICAL] [RESULT#12] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2549 [CRITICAL] [RESULT#13] unlink /home/helgidev08/projects/pi_test/upload/a5/pi_wu_auto_9_1769297368_0_r1586685004_0 error: Error -1 Permission denied
+2026-01-25 01:42:53.2550 [CRITICAL] [RESULT#13] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2602 [CRITICAL] [RESULT#14] unlink /home/helgidev08/projects/pi_test/upload/21/pi_wu_auto_10_1769297368_0_r552516283_0 error: Error -1 Permission denied
+2026-01-25 01:42:53.2603 [CRITICAL] [RESULT#14] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2626  [WU#2] deleting wu_10m.txt
+2026-01-25 01:42:53.2626 [CRITICAL] [WU#2] unlink wu_10m.txt failed: Error -1
+2026-01-25 01:42:53.2626  [WU#2] deleting wu_10m.txt.md5
+2026-01-25 01:42:53.2626 [CRITICAL] [WU#2] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 01:42:53.2626 [CRITICAL] [WU#2] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2642  [WU#3] deleting wu_10m.txt
+2026-01-25 01:42:53.2643 [CRITICAL] [WU#3] unlink wu_10m.txt failed: Error -1
+2026-01-25 01:42:53.2643  [WU#3] deleting wu_10m.txt.md5
+2026-01-25 01:42:53.2643 [CRITICAL] [WU#3] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 01:42:53.2643 [CRITICAL] [WU#3] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2658  [WU#4] deleting wu_10m.txt
+2026-01-25 01:42:53.2658 [CRITICAL] [WU#4] unlink wu_10m.txt failed: Error -1
+2026-01-25 01:42:53.2659  [WU#4] deleting wu_10m.txt.md5
+2026-01-25 01:42:53.2659 [CRITICAL] [WU#4] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 01:42:53.2659 [CRITICAL] [WU#4] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2671  [WU#5] deleting wu_10m.txt
+2026-01-25 01:42:53.2671 [CRITICAL] [WU#5] unlink wu_10m.txt failed: Error -1
+2026-01-25 01:42:53.2671  [WU#5] deleting wu_10m.txt.md5
+2026-01-25 01:42:53.2671 [CRITICAL] [WU#5] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 01:42:53.2672 [CRITICAL] [WU#5] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2688  [WU#6] deleting wu_10m.txt
+2026-01-25 01:42:53.2688 [CRITICAL] [WU#6] unlink wu_10m.txt failed: Error -1
+2026-01-25 01:42:53.2688  [WU#6] deleting wu_10m.txt.md5
+2026-01-25 01:42:53.2688 [CRITICAL] [WU#6] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 01:42:53.2688 [CRITICAL] [WU#6] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2701  [WU#7] deleting wu_10m.txt
+2026-01-25 01:42:53.2701 [CRITICAL] [WU#7] unlink wu_10m.txt failed: Error -1
+2026-01-25 01:42:53.2701  [WU#7] deleting wu_10m.txt.md5
+2026-01-25 01:42:53.2701 [CRITICAL] [WU#7] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 01:42:53.2701 [CRITICAL] [WU#7] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2715  [WU#8] deleting wu_10m.txt
+2026-01-25 01:42:53.2716 [CRITICAL] [WU#8] unlink wu_10m.txt failed: Error -1
+2026-01-25 01:42:53.2716  [WU#8] deleting wu_10m.txt.md5
+2026-01-25 01:42:53.2716 [CRITICAL] [WU#8] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 01:42:53.2716 [CRITICAL] [WU#8] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2730  [WU#9] deleting wu_10m.txt
+2026-01-25 01:42:53.2730 [CRITICAL] [WU#9] unlink wu_10m.txt failed: Error -1
+2026-01-25 01:42:53.2730  [WU#9] deleting wu_10m.txt.md5
+2026-01-25 01:42:53.2731 [CRITICAL] [WU#9] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 01:42:53.2731 [CRITICAL] [WU#9] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2748  [WU#10] deleting wu_10m.txt
+2026-01-25 01:42:53.2748 [CRITICAL] [WU#10] unlink wu_10m.txt failed: Error -1
+2026-01-25 01:42:53.2748  [WU#10] deleting wu_10m.txt.md5
+2026-01-25 01:42:53.2748 [CRITICAL] [WU#10] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 01:42:53.2748 [CRITICAL] [WU#10] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2759  [WU#11] deleting wu_10m.txt
+2026-01-25 01:42:53.2759 [CRITICAL] [WU#11] unlink wu_10m.txt failed: Error -1
+2026-01-25 01:42:53.2759  [WU#11] deleting wu_10m.txt.md5
+2026-01-25 01:42:53.2759 [CRITICAL] [WU#11] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 01:42:53.2759 [CRITICAL] [WU#11] file deletion failed: unlink() failed
+2026-01-25 01:42:53.2782  [WU#12] deleting wu_10m.txt
+2026-01-25 01:42:53.2783 [CRITICAL] [WU#12] unlink wu_10m.txt failed: Error -1
+2026-01-25 01:42:53.2783  [WU#12] deleting wu_10m.txt.md5
+2026-01-25 01:42:53.2783 [CRITICAL] [WU#12] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 01:42:53.2783 [CRITICAL] [WU#12] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6325  Starting
+2026-01-25 02:15:29.6370 [CRITICAL] [RESULT#4] unlink /home/helgidev08/projects/pi_test/upload/3aa/pi_wu_manual_3_0_r1128838501_0 error: Error -1 Permission denied
+2026-01-25 02:15:29.6371 [CRITICAL] [RESULT#4] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6371 [CRITICAL] [RESULT#5] unlink /home/helgidev08/projects/pi_test/upload/305/pi_wu_auto_1_1769297368_0_r1046141123_0 error: Error -1 Permission denied
+2026-01-25 02:15:29.6371 [CRITICAL] [RESULT#5] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6372 [CRITICAL] [RESULT#6] unlink /home/helgidev08/projects/pi_test/upload/38c/pi_wu_auto_2_1769297368_0_r1204450658_0 error: Error -1 Permission denied
+2026-01-25 02:15:29.6372 [CRITICAL] [RESULT#6] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6372 [CRITICAL] [RESULT#7] unlink /home/helgidev08/projects/pi_test/upload/2f4/pi_wu_auto_3_1769297368_0_r1590376539_0 error: Error -1 Permission denied
+2026-01-25 02:15:29.6372 [CRITICAL] [RESULT#7] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6373 [CRITICAL] [RESULT#8] unlink /home/helgidev08/projects/pi_test/upload/3ae/pi_wu_auto_4_1769297368_0_r1101902845_0 error: Error -1 Permission denied
+2026-01-25 02:15:29.6373 [CRITICAL] [RESULT#8] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6373 [CRITICAL] [RESULT#9] unlink /home/helgidev08/projects/pi_test/upload/159/pi_wu_auto_5_1769297368_0_r889426544_0 error: Error -1 Permission denied
+2026-01-25 02:15:29.6373 [CRITICAL] [RESULT#9] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6374 [CRITICAL] [RESULT#10] unlink /home/helgidev08/projects/pi_test/upload/300/pi_wu_auto_6_1769297368_0_r361782812_0 error: Error -1 Permission denied
+2026-01-25 02:15:29.6374 [CRITICAL] [RESULT#10] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6374 [CRITICAL] [RESULT#11] unlink /home/helgidev08/projects/pi_test/upload/397/pi_wu_auto_7_1769297368_0_r1580065176_0 error: Error -1 Permission denied
+2026-01-25 02:15:29.6374 [CRITICAL] [RESULT#11] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6374 [CRITICAL] [RESULT#12] unlink /home/helgidev08/projects/pi_test/upload/c9/pi_wu_auto_8_1769297368_0_r1010096628_0 error: Error -1 Permission denied
+2026-01-25 02:15:29.6375 [CRITICAL] [RESULT#12] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6375 [CRITICAL] [RESULT#13] unlink /home/helgidev08/projects/pi_test/upload/a5/pi_wu_auto_9_1769297368_0_r1586685004_0 error: Error -1 Permission denied
+2026-01-25 02:15:29.6375 [CRITICAL] [RESULT#13] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6375 [CRITICAL] [RESULT#14] unlink /home/helgidev08/projects/pi_test/upload/21/pi_wu_auto_10_1769297368_0_r552516283_0 error: Error -1 Permission denied
+2026-01-25 02:15:29.6375 [CRITICAL] [RESULT#14] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6379  [WU#1] deleting wu_10m.txt
+2026-01-25 02:15:29.6379 [CRITICAL] [WU#1] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:15:29.6379  [WU#1] deleting wu_10m.txt.md5
+2026-01-25 02:15:29.6379 [CRITICAL] [WU#1] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:15:29.6379 [CRITICAL] [WU#1] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6380  [WU#2] deleting wu_10m.txt
+2026-01-25 02:15:29.6380 [CRITICAL] [WU#2] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:15:29.6380  [WU#2] deleting wu_10m.txt.md5
+2026-01-25 02:15:29.6380 [CRITICAL] [WU#2] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:15:29.6380 [CRITICAL] [WU#2] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6380  [WU#3] deleting wu_10m.txt
+2026-01-25 02:15:29.6380 [CRITICAL] [WU#3] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:15:29.6380  [WU#3] deleting wu_10m.txt.md5
+2026-01-25 02:15:29.6380 [CRITICAL] [WU#3] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:15:29.6380 [CRITICAL] [WU#3] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6380  [WU#4] deleting wu_10m.txt
+2026-01-25 02:15:29.6381 [CRITICAL] [WU#4] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:15:29.6381  [WU#4] deleting wu_10m.txt.md5
+2026-01-25 02:15:29.6381 [CRITICAL] [WU#4] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:15:29.6381 [CRITICAL] [WU#4] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6381  [WU#5] deleting wu_10m.txt
+2026-01-25 02:15:29.6381 [CRITICAL] [WU#5] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:15:29.6381  [WU#5] deleting wu_10m.txt.md5
+2026-01-25 02:15:29.6381 [CRITICAL] [WU#5] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:15:29.6381 [CRITICAL] [WU#5] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6381  [WU#6] deleting wu_10m.txt
+2026-01-25 02:15:29.6381 [CRITICAL] [WU#6] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:15:29.6381  [WU#6] deleting wu_10m.txt.md5
+2026-01-25 02:15:29.6382 [CRITICAL] [WU#6] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:15:29.6382 [CRITICAL] [WU#6] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6382  [WU#7] deleting wu_10m.txt
+2026-01-25 02:15:29.6382 [CRITICAL] [WU#7] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:15:29.6382  [WU#7] deleting wu_10m.txt.md5
+2026-01-25 02:15:29.6382 [CRITICAL] [WU#7] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:15:29.6382 [CRITICAL] [WU#7] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6382  [WU#8] deleting wu_10m.txt
+2026-01-25 02:15:29.6382 [CRITICAL] [WU#8] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:15:29.6382  [WU#8] deleting wu_10m.txt.md5
+2026-01-25 02:15:29.6382 [CRITICAL] [WU#8] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:15:29.6383 [CRITICAL] [WU#8] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6383  [WU#9] deleting wu_10m.txt
+2026-01-25 02:15:29.6383 [CRITICAL] [WU#9] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:15:29.6383  [WU#9] deleting wu_10m.txt.md5
+2026-01-25 02:15:29.6383 [CRITICAL] [WU#9] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:15:29.6383 [CRITICAL] [WU#9] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6383  [WU#10] deleting wu_10m.txt
+2026-01-25 02:15:29.6383 [CRITICAL] [WU#10] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:15:29.6383  [WU#10] deleting wu_10m.txt.md5
+2026-01-25 02:15:29.6383 [CRITICAL] [WU#10] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:15:29.6383 [CRITICAL] [WU#10] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6384  [WU#11] deleting wu_10m.txt
+2026-01-25 02:15:29.6384 [CRITICAL] [WU#11] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:15:29.6384  [WU#11] deleting wu_10m.txt.md5
+2026-01-25 02:15:29.6384 [CRITICAL] [WU#11] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:15:29.6384 [CRITICAL] [WU#11] file deletion failed: unlink() failed
+2026-01-25 02:15:29.6384  [WU#12] deleting wu_10m.txt
+2026-01-25 02:15:29.6384 [CRITICAL] [WU#12] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:15:29.6384  [WU#12] deleting wu_10m.txt.md5
+2026-01-25 02:15:29.6384 [CRITICAL] [WU#12] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:15:29.6384 [CRITICAL] [WU#12] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0647 [CRITICAL] [RESULT#4] unlink /home/helgidev08/projects/pi_test/upload/3aa/pi_wu_manual_3_0_r1128838501_0 error: Error -1 Permission denied
+2026-01-25 02:17:42.0648 [CRITICAL] [RESULT#4] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0649 [CRITICAL] [RESULT#5] unlink /home/helgidev08/projects/pi_test/upload/305/pi_wu_auto_1_1769297368_0_r1046141123_0 error: Error -1 Permission denied
+2026-01-25 02:17:42.0650 [CRITICAL] [RESULT#5] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0650 [CRITICAL] [RESULT#6] unlink /home/helgidev08/projects/pi_test/upload/38c/pi_wu_auto_2_1769297368_0_r1204450658_0 error: Error -1 Permission denied
+2026-01-25 02:17:42.0650 [CRITICAL] [RESULT#6] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0651 [CRITICAL] [RESULT#7] unlink /home/helgidev08/projects/pi_test/upload/2f4/pi_wu_auto_3_1769297368_0_r1590376539_0 error: Error -1 Permission denied
+2026-01-25 02:17:42.0652 [CRITICAL] [RESULT#7] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0652 [CRITICAL] [RESULT#8] unlink /home/helgidev08/projects/pi_test/upload/3ae/pi_wu_auto_4_1769297368_0_r1101902845_0 error: Error -1 Permission denied
+2026-01-25 02:17:42.0653 [CRITICAL] [RESULT#8] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0653 [CRITICAL] [RESULT#9] unlink /home/helgidev08/projects/pi_test/upload/159/pi_wu_auto_5_1769297368_0_r889426544_0 error: Error -1 Permission denied
+2026-01-25 02:17:42.0653 [CRITICAL] [RESULT#9] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0653 [CRITICAL] [RESULT#10] unlink /home/helgidev08/projects/pi_test/upload/300/pi_wu_auto_6_1769297368_0_r361782812_0 error: Error -1 Permission denied
+2026-01-25 02:17:42.0654 [CRITICAL] [RESULT#10] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0654 [CRITICAL] [RESULT#11] unlink /home/helgidev08/projects/pi_test/upload/397/pi_wu_auto_7_1769297368_0_r1580065176_0 error: Error -1 Permission denied
+2026-01-25 02:17:42.0654 [CRITICAL] [RESULT#11] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0655 [CRITICAL] [RESULT#12] unlink /home/helgidev08/projects/pi_test/upload/c9/pi_wu_auto_8_1769297368_0_r1010096628_0 error: Error -1 Permission denied
+2026-01-25 02:17:42.0655 [CRITICAL] [RESULT#12] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0656 [CRITICAL] [RESULT#13] unlink /home/helgidev08/projects/pi_test/upload/a5/pi_wu_auto_9_1769297368_0_r1586685004_0 error: Error -1 Permission denied
+2026-01-25 02:17:42.0656 [CRITICAL] [RESULT#13] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0656 [CRITICAL] [RESULT#14] unlink /home/helgidev08/projects/pi_test/upload/21/pi_wu_auto_10_1769297368_0_r552516283_0 error: Error -1 Permission denied
+2026-01-25 02:17:42.0656 [CRITICAL] [RESULT#14] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0662  [WU#1] deleting wu_10m.txt
+2026-01-25 02:17:42.0663 [CRITICAL] [WU#1] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:17:42.0663  [WU#1] deleting wu_10m.txt.md5
+2026-01-25 02:17:42.0663 [CRITICAL] [WU#1] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:17:42.0663 [CRITICAL] [WU#1] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0663  [WU#2] deleting wu_10m.txt
+2026-01-25 02:17:42.0663 [CRITICAL] [WU#2] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:17:42.0663  [WU#2] deleting wu_10m.txt.md5
+2026-01-25 02:17:42.0663 [CRITICAL] [WU#2] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:17:42.0663 [CRITICAL] [WU#2] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0664  [WU#3] deleting wu_10m.txt
+2026-01-25 02:17:42.0664 [CRITICAL] [WU#3] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:17:42.0664  [WU#3] deleting wu_10m.txt.md5
+2026-01-25 02:17:42.0664 [CRITICAL] [WU#3] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:17:42.0664 [CRITICAL] [WU#3] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0664  [WU#4] deleting wu_10m.txt
+2026-01-25 02:17:42.0664 [CRITICAL] [WU#4] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:17:42.0664  [WU#4] deleting wu_10m.txt.md5
+2026-01-25 02:17:42.0664 [CRITICAL] [WU#4] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:17:42.0664 [CRITICAL] [WU#4] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0664  [WU#5] deleting wu_10m.txt
+2026-01-25 02:17:42.0664 [CRITICAL] [WU#5] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:17:42.0664  [WU#5] deleting wu_10m.txt.md5
+2026-01-25 02:17:42.0665 [CRITICAL] [WU#5] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:17:42.0665 [CRITICAL] [WU#5] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0665  [WU#6] deleting wu_10m.txt
+2026-01-25 02:17:42.0665 [CRITICAL] [WU#6] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:17:42.0665  [WU#6] deleting wu_10m.txt.md5
+2026-01-25 02:17:42.0665 [CRITICAL] [WU#6] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:17:42.0665 [CRITICAL] [WU#6] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0665  [WU#7] deleting wu_10m.txt
+2026-01-25 02:17:42.0665 [CRITICAL] [WU#7] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:17:42.0665  [WU#7] deleting wu_10m.txt.md5
+2026-01-25 02:17:42.0665 [CRITICAL] [WU#7] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:17:42.0665 [CRITICAL] [WU#7] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0666  [WU#8] deleting wu_10m.txt
+2026-01-25 02:17:42.0666 [CRITICAL] [WU#8] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:17:42.0666  [WU#8] deleting wu_10m.txt.md5
+2026-01-25 02:17:42.0666 [CRITICAL] [WU#8] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:17:42.0666 [CRITICAL] [WU#8] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0666  [WU#9] deleting wu_10m.txt
+2026-01-25 02:17:42.0666 [CRITICAL] [WU#9] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:17:42.0666  [WU#9] deleting wu_10m.txt.md5
+2026-01-25 02:17:42.0666 [CRITICAL] [WU#9] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:17:42.0666 [CRITICAL] [WU#9] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0666  [WU#10] deleting wu_10m.txt
+2026-01-25 02:17:42.0667 [CRITICAL] [WU#10] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:17:42.0667  [WU#10] deleting wu_10m.txt.md5
+2026-01-25 02:17:42.0667 [CRITICAL] [WU#10] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:17:42.0667 [CRITICAL] [WU#10] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0667  [WU#11] deleting wu_10m.txt
+2026-01-25 02:17:42.0667 [CRITICAL] [WU#11] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:17:42.0667  [WU#11] deleting wu_10m.txt.md5
+2026-01-25 02:17:42.0667 [CRITICAL] [WU#11] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:17:42.0667 [CRITICAL] [WU#11] file deletion failed: unlink() failed
+2026-01-25 02:17:42.0667  [WU#12] deleting wu_10m.txt
+2026-01-25 02:17:42.0667 [CRITICAL] [WU#12] unlink wu_10m.txt failed: Error -1
+2026-01-25 02:17:42.0668  [WU#12] deleting wu_10m.txt.md5
+2026-01-25 02:17:42.0668 [CRITICAL] [WU#12] unlink wu_10m.txt.md5 failed: Error -1
+2026-01-25 02:17:42.0668 [CRITICAL] [WU#12] file deletion failed: unlink() failed
+2026-01-25 02:20:09.6382  Starting
+2026-01-25 02:20:09.6570  [RESULT#4] unlinked /home/helgidev08/projects/pi_test/upload/3aa/pi_wu_manual_3_0_r1128838501_0
+2026-01-25 02:20:09.6628  [RESULT#5] unlinked /home/helgidev08/projects/pi_test/upload/305/pi_wu_auto_1_1769297368_0_r1046141123_0
+2026-01-25 02:20:09.6672  [RESULT#6] unlinked /home/helgidev08/projects/pi_test/upload/38c/pi_wu_auto_2_1769297368_0_r1204450658_0
+2026-01-25 02:20:09.6705  [RESULT#7] unlinked /home/helgidev08/projects/pi_test/upload/2f4/pi_wu_auto_3_1769297368_0_r1590376539_0
+2026-01-25 02:20:09.6741  [RESULT#8] unlinked /home/helgidev08/projects/pi_test/upload/3ae/pi_wu_auto_4_1769297368_0_r1101902845_0
+2026-01-25 02:20:09.6753  [RESULT#9] unlinked /home/helgidev08/projects/pi_test/upload/159/pi_wu_auto_5_1769297368_0_r889426544_0
+2026-01-25 02:20:09.6781  [RESULT#10] unlinked /home/helgidev08/projects/pi_test/upload/300/pi_wu_auto_6_1769297368_0_r361782812_0
+2026-01-25 02:20:09.6830  [RESULT#11] unlinked /home/helgidev08/projects/pi_test/upload/397/pi_wu_auto_7_1769297368_0_r1580065176_0
+2026-01-25 02:20:09.6848  [RESULT#12] unlinked /home/helgidev08/projects/pi_test/upload/c9/pi_wu_auto_8_1769297368_0_r1010096628_0
+2026-01-25 02:20:09.6866  [RESULT#13] unlinked /home/helgidev08/projects/pi_test/upload/a5/pi_wu_auto_9_1769297368_0_r1586685004_0
+2026-01-25 02:20:09.6906  [RESULT#14] unlinked /home/helgidev08/projects/pi_test/upload/21/pi_wu_auto_10_1769297368_0_r552516283_0
+2026-01-25 02:20:09.6934  [WU#1] deleting wu_10m.txt
+2026-01-25 02:20:09.6938  [WU#1] deleting wu_10m.txt.md5
+2026-01-25 02:20:09.6957 [CRITICAL] [WU#2] get_file_path: wu_10m.txt: not found
+2026-01-25 02:20:09.6973 [CRITICAL] [WU#3] get_file_path: wu_10m.txt: not found
+2026-01-25 02:20:09.6991 [CRITICAL] [WU#4] get_file_path: wu_10m.txt: not found
+2026-01-25 02:20:09.7008 [CRITICAL] [WU#5] get_file_path: wu_10m.txt: not found
+2026-01-25 02:20:09.7020 [CRITICAL] [WU#6] get_file_path: wu_10m.txt: not found
+2026-01-25 02:20:09.7244 [CRITICAL] [WU#7] get_file_path: wu_10m.txt: not found
+2026-01-25 02:20:09.7307 [CRITICAL] [WU#8] get_file_path: wu_10m.txt: not found
+2026-01-25 02:20:09.7321 [CRITICAL] [WU#9] get_file_path: wu_10m.txt: not found
+2026-01-25 02:20:09.7333 [CRITICAL] [WU#10] get_file_path: wu_10m.txt: not found
+2026-01-25 02:20:09.7385 [CRITICAL] [WU#11] get_file_path: wu_10m.txt: not found
+2026-01-25 02:20:09.7415 [CRITICAL] [WU#12] get_file_path: wu_10m.txt: not found
+2026-01-25 02:26:30.6502 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:26:30.6608 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:26:30.6727 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:26:30.6849 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:26:30.6972 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:26:30.7092 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:26:30.7224 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:26:30.7349 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:26:30.7475 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:26:30.7597 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:26:30.7717 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:26:30.7830 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:26:45.9439  Starting
+2026-01-25 02:32:58.2422 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.2521 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.2650 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.2762 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.2869 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.2969 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.3055 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.3142 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.3236 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.3334 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.3422 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.3512 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.3605 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.3694 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.3783 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.3874 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.3957 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.4044 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.4138 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:32:58.4231 [CRITICAL] unknown command line argument: --one_pass_N_WU
+
+Deletes files that are no longer needed.
+
+Default operation:
+1) enumerate N WUs and M results (N,M compile params)
+   that are ready to file-delete, and try to delete their files
+2) if the enums didn't yield anything, sleep for K seconds
+3) repeat from 1)
+4) every 1 hour, enumerate everything in state FILE_DELETE_ERROR
+   and try to delete it.
+Usage: ./bin/file_deleter [OPTIONS]
+
+Options:
+  -d N | --debug_level N       set debug output level (1 to 4)
+  --mod M R                    handle only WUs with ID mod M == R
+  --appid ID                   handle only WUs of app with id ID
+  --app NAME                   handle only WUs of app with name NAME
+  --one_pass                   instead of sleeping in 2), exit
+  --dont_retry_error           don't do step 4) above
+  --preserve_result_files      update the DB, but don't delete output files.
+                               For debugging.
+  --preserve_wu_files          update the DB, but don't delete input files.
+                               For debugging.
+  --input_files_only           delete only input (download) files
+  --no_db_update               don't update wu/result file_delete_state
+  --output_files_only          delete only output (upload) files
+  --xml_doc_like L             only process workunits where xml_doc LIKE 'L'
+  --download_dir D             override download_dir from project config with D
+  [ -h | --help ]              shows this help text
+  [ -v | --version ]           shows version information
+2026-01-25 02:36:41.4705  Starting
+2026-01-25 02:37:03.8686  Starting
+2026-01-25 02:37:27.9525  Starting
+2026-01-25 02:37:27.9613  Starting
+2026-01-25 02:37:27.9711  Starting
+2026-01-25 02:37:27.9800  Starting
+2026-01-25 02:37:27.9890  Starting
+2026-01-25 02:37:27.9976  Starting
+2026-01-25 02:37:28.0061  Starting
+2026-01-25 02:37:28.0145  Starting
+2026-01-25 02:37:28.0228  Starting
+2026-01-25 02:37:28.0311  Starting
+2026-01-25 02:54:32.4562  [RESULT#15] unlinked /home/helgidev08/projects/pi_test/upload/27/pi_wu_auto_1_1769301125_0_r572450905_0
+2026-01-25 02:54:32.4880  [WU#13] deleting wu_10m_1.txt
+2026-01-25 02:54:32.4882  [WU#13] deleting wu_10m_1.txt.md5
+2026-01-25 02:54:42.4948  [RESULT#16] unlinked /home/helgidev08/projects/pi_test/upload/117/pi_wu_auto_2_1769301125_0_r399239453_0
+2026-01-25 02:54:42.5278  [RESULT#17] unlinked /home/helgidev08/projects/pi_test/upload/2b0/pi_wu_auto_3_1769301125_0_r401191315_0
+2026-01-25 02:54:42.5293  [RESULT#18] unlinked /home/helgidev08/projects/pi_test/upload/1d/pi_wu_auto_4_1769301125_0_r1096120707_0
+2026-01-25 02:54:42.5310  [RESULT#19] unlinked /home/helgidev08/projects/pi_test/upload/279/pi_wu_auto_5_1769301125_0_r978350044_0
+2026-01-25 02:54:42.5326  [RESULT#20] unlinked /home/helgidev08/projects/pi_test/upload/182/pi_wu_auto_6_1769301125_0_r1325166040_0
+2026-01-25 02:54:42.5341  [RESULT#21] unlinked /home/helgidev08/projects/pi_test/upload/113/pi_wu_auto_7_1769301125_0_r269399948_0
+2026-01-25 02:54:42.5356  [RESULT#22] unlinked /home/helgidev08/projects/pi_test/upload/1ad/pi_wu_auto_8_1769301125_0_r434425418_0
+2026-01-25 02:54:42.5369  [RESULT#23] unlinked /home/helgidev08/projects/pi_test/upload/2e8/pi_wu_auto_9_1769301125_0_r1706320697_0
+2026-01-25 02:54:42.5380  [RESULT#24] unlinked /home/helgidev08/projects/pi_test/upload/6b/pi_wu_auto_10_1769301125_0_r1875763137_0
+2026-01-25 02:54:42.5396  [WU#14] deleting wu_10m_2.txt
+2026-01-25 02:54:42.5398  [WU#14] deleting wu_10m_2.txt.md5
+2026-01-25 02:54:42.5410  [WU#15] deleting wu_10m_3.txt
+2026-01-25 02:54:42.5411  [WU#15] deleting wu_10m_3.txt.md5
+2026-01-25 02:54:42.5438  [WU#16] deleting wu_10m_4.txt
+2026-01-25 02:54:42.5439  [WU#16] deleting wu_10m_4.txt.md5
+2026-01-25 02:54:42.5516  [WU#17] deleting wu_10m_5.txt
+2026-01-25 02:54:42.5517  [WU#17] deleting wu_10m_5.txt.md5
+2026-01-25 02:54:42.5532  [WU#18] deleting wu_10m_6.txt
+2026-01-25 02:54:42.5533  [WU#18] deleting wu_10m_6.txt.md5
+2026-01-25 02:54:42.5545  [WU#19] deleting wu_10m_7.txt
+2026-01-25 02:54:42.5546  [WU#19] deleting wu_10m_7.txt.md5
+2026-01-25 02:54:42.5557  [WU#20] deleting wu_10m_8.txt
+2026-01-25 02:54:42.5558  [WU#20] deleting wu_10m_8.txt.md5
+2026-01-25 02:54:42.5569  [WU#21] deleting wu_10m_9.txt
+2026-01-25 02:54:42.5570  [WU#21] deleting wu_10m_9.txt.md5
+2026-01-25 02:54:42.5581  [WU#22] deleting wu_10m_10.txt
+2026-01-25 02:54:42.5582  [WU#22] deleting wu_10m_10.txt.md5
+[2026/01/26 10:51:46] Executing command: file_deleter -d 3
+2026-01-26 10:51:47.2226  Starting
+2026-01-26 10:52:22.2501  [RESULT#25] unlinked /home/helgidev08/projects/pi_test/upload/134/pi_copy_1_1769417271_0_r1149797754_0
+2026-01-26 10:52:22.2522  [RESULT#26] unlinked /home/helgidev08/projects/pi_test/upload/2ed/pi_copy_1_1769417271_1_r1146675314_0
+2026-01-26 10:52:22.2557  [RESULT#27] unlinked /home/helgidev08/projects/pi_test/upload/307/pi_copy_1_1769417271_2_r1252684998_0
+2026-01-26 10:52:22.2593  [RESULT#32] unlinked /home/helgidev08/projects/pi_test/upload/a7/pi_copy_3_1769417271_1_r658093809_0
+2026-01-26 10:52:22.2647  [WU#23] deleting wu_1.txt
+2026-01-26 10:52:22.2649  [WU#23] deleting wu_1.txt.md5
+2026-01-26 10:52:32.2743  [RESULT#28] unlinked /home/helgidev08/projects/pi_test/upload/334/pi_copy_2_1769417271_0_r2110634897_0
+2026-01-26 10:52:32.2822  [RESULT#29] unlinked /home/helgidev08/projects/pi_test/upload/346/pi_copy_2_1769417271_1_r1636070266_0
+2026-01-26 10:52:32.2889  [RESULT#30] unlinked /home/helgidev08/projects/pi_test/upload/3cc/pi_copy_2_1769417271_2_r762447395_0
+2026-01-26 10:52:32.2926  [WU#24] deleting wu_2.txt
+2026-01-26 10:52:32.2928  [WU#24] deleting wu_2.txt.md5
+2026-01-26 10:52:32.2951  [RESULT#31] unlinked /home/helgidev08/projects/pi_test/upload/372/pi_copy_3_1769417271_0_r907646457_0
+2026-01-26 10:52:32.3040  [RESULT#33] unlinked /home/helgidev08/projects/pi_test/upload/396/pi_copy_3_1769417271_2_r2054203629_0
+2026-01-26 10:52:32.3075  [WU#25] deleting wu_3.txt
+2026-01-26 10:52:32.3084  [WU#25] deleting wu_3.txt.md5
+2026-01-26 10:52:32.3123  [RESULT#34] unlinked /home/helgidev08/projects/pi_test/upload/42/pi_copy_4_1769417271_0_r1147022232_0
+2026-01-26 10:52:32.3144  [RESULT#35] unlinked /home/helgidev08/projects/pi_test/upload/2c2/pi_copy_4_1769417271_1_r712505772_0
+2026-01-26 10:52:32.3177  [WU#26] deleting wu_4.txt
+2026-01-26 10:52:32.3180  [WU#26] deleting wu_4.txt.md5
+2026-01-26 10:52:32.3220  [RESULT#36] unlinked /home/helgidev08/projects/pi_test/upload/6c/pi_copy_4_1769417271_2_r392113342_0
+2026-01-26 10:52:32.3259  [RESULT#37] unlinked /home/helgidev08/projects/pi_test/upload/19f/pi_copy_5_1769417271_0_r626655927_0
+2026-01-26 10:52:32.3285  [RESULT#38] unlinked /home/helgidev08/projects/pi_test/upload/181/pi_copy_5_1769417271_1_r926597983_0
+2026-01-26 10:52:32.3307  [WU#27] deleting wu_5.txt
+2026-01-26 10:52:32.3310  [WU#27] deleting wu_5.txt.md5
+2026-01-26 10:52:32.3329  [RESULT#39] unlinked /home/helgidev08/projects/pi_test/upload/1c8/pi_copy_5_1769417271_2_r1551441500_0
+GOT STOP SIGNAL
+2026-01-26 10:57:14.0659  Quitting due to SIGHUP
+2026-01-26 10:57:14.4754  Quitting because trigger file './stop_daemons' is present
+[2026/01/26 10:57:16] Executing command: file_deleter -d 3
+2026-01-26 10:57:16.4262  Starting
+Database error: Lost connection to MySQL server during query
+query=select * from result where file_delete_state=1  limit 1500

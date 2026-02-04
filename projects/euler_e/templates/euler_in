@@ -1,0 +1,5 @@
+<input_template>
+    <workunit>
+        <command_line>--iterations <ITERATIONS/></command_line>
+    </workunit>
+</input_template>

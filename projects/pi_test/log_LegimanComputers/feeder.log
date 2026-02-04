@@ -1,0 +1,105 @@
+[2026/01/24 19:17:27] Executing command: feeder -d 3
+2026-01-24 19:17:27.0446  Starting
+2026-01-24 19:17:27.0447  9ecb1b80956f86549f8301578bb24b3a1c0ada7c [https://github.com/BOINC/boinc.git] (LegimanComputers:/home/helgidev08/boinc_source [master]) [Server-Release: server_release/1.x/1.x.0-3081-g9ecb1b80956f86549f8301578bb24b3a1c0ada7c]
+have apps for CPU: yes
+have apps for NVIDIA GPU: no
+have apps for AMD/ATI GPU: no
+have apps for Intel GPU: no
+have apps for Apple GPU: no
+2026-01-24 19:17:27.0972  read 1 platforms, 1 apps, 1 app_versions, 0 assignments
+2026-01-24 19:17:27.0972  Using 100 job slots
+2026-01-24 19:17:42.1070  adding result [RESULT#1] in slot 0
+2026-01-24 19:17:42.1070  adding result [RESULT#2] in slot 1
+2026-01-24 19:17:42.1070  adding result [RESULT#3] in slot 2
+2026-01-25 01:18:08.0224  adding result [RESULT#4] in slot 0
+2026-01-25 01:37:27.9163  Starting
+2026-01-25 01:37:27.9164  9ecb1b80956f86549f8301578bb24b3a1c0ada7c [https://github.com/BOINC/boinc.git] (LegimanComputers:/home/helgidev08/boinc_source [master]) [Server-Release: server_release/1.x/1.x.0-3081-g9ecb1b80956f86549f8301578bb24b3a1c0ada7c]
+have apps for CPU: yes
+have apps for NVIDIA GPU: no
+have apps for AMD/ATI GPU: no
+have apps for Intel GPU: no
+have apps for Apple GPU: no
+2026-01-25 01:37:28.0748  read 1 platforms, 1 apps, 1 app_versions, 0 assignments
+2026-01-25 01:37:28.0748  Using 100 job slots
+2026-01-25 01:37:28.0843  adding result [RESULT#5] in slot 0
+2026-01-25 01:37:28.0843  adding result [RESULT#6] in slot 1
+2026-01-25 01:37:28.0843  adding result [RESULT#7] in slot 2
+2026-01-25 01:37:28.0843  adding result [RESULT#8] in slot 3
+2026-01-25 01:37:28.0844  adding result [RESULT#9] in slot 4
+2026-01-25 01:37:28.0844  adding result [RESULT#10] in slot 5
+2026-01-25 01:37:28.0844  adding result [RESULT#11] in slot 6
+2026-01-25 01:37:28.0844  adding result [RESULT#12] in slot 7
+2026-01-25 01:37:28.0844  adding result [RESULT#13] in slot 8
+2026-01-25 01:37:28.0844  adding result [RESULT#14] in slot 9
+2026-01-25 02:26:45.9454  Starting
+2026-01-25 02:26:45.9455  9ecb1b80956f86549f8301578bb24b3a1c0ada7c [https://github.com/BOINC/boinc.git] (LegimanComputers:/home/helgidev08/boinc_source [master]) [Server-Release: server_release/1.x/1.x.0-3081-g9ecb1b80956f86549f8301578bb24b3a1c0ada7c]
+have apps for CPU: yes
+have apps for NVIDIA GPU: no
+have apps for AMD/ATI GPU: no
+have apps for Intel GPU: no
+have apps for Apple GPU: no
+2026-01-25 02:26:46.1311  read 1 platforms, 1 apps, 1 app_versions, 0 assignments
+2026-01-25 02:26:46.1311  Using 100 job slots
+2026-01-25 02:32:06.3942  adding result [RESULT#15] in slot 0
+2026-01-25 02:32:06.3942  adding result [RESULT#16] in slot 1
+2026-01-25 02:32:06.3943  adding result [RESULT#17] in slot 2
+2026-01-25 02:32:06.3943  adding result [RESULT#18] in slot 3
+2026-01-25 02:32:06.3943  adding result [RESULT#19] in slot 4
+2026-01-25 02:32:06.3943  adding result [RESULT#20] in slot 5
+2026-01-25 02:32:06.3944  adding result [RESULT#21] in slot 6
+2026-01-25 02:32:06.3944  adding result [RESULT#22] in slot 7
+2026-01-25 02:32:06.3944  adding result [RESULT#23] in slot 8
+2026-01-25 02:32:06.3945  adding result [RESULT#24] in slot 9
+2026-01-26 10:47:55.8074  adding result [RESULT#25] in slot 0
+2026-01-26 10:47:55.8083  adding result [RESULT#26] in slot 1
+2026-01-26 10:47:55.8085  adding result [RESULT#27] in slot 2
+2026-01-26 10:47:55.8088  adding result [RESULT#28] in slot 3
+2026-01-26 10:47:55.8091  adding result [RESULT#29] in slot 4
+2026-01-26 10:47:55.8094  adding result [RESULT#30] in slot 5
+2026-01-26 10:47:55.8096  adding result [RESULT#31] in slot 6
+2026-01-26 10:47:55.8099  adding result [RESULT#32] in slot 7
+2026-01-26 10:47:55.8102  adding result [RESULT#33] in slot 8
+2026-01-26 10:47:55.8105  adding result [RESULT#34] in slot 9
+2026-01-26 10:47:55.8108  adding result [RESULT#35] in slot 10
+2026-01-26 10:47:55.8111  adding result [RESULT#36] in slot 11
+2026-01-26 10:47:55.8115  adding result [RESULT#37] in slot 12
+2026-01-26 10:47:55.8119  adding result [RESULT#38] in slot 13
+2026-01-26 10:47:55.8123  adding result [RESULT#39] in slot 14
+[2026/01/26 10:51:46] Executing command: feeder -d 3
+2026-01-26 10:51:47.0277  Starting
+2026-01-26 10:51:47.0290  9ecb1b80956f86549f8301578bb24b3a1c0ada7c [https://github.com/BOINC/boinc.git] (LegimanComputers:/home/helgidev08/boinc_source [master]) [Server-Release: server_release/1.x/1.x.0-3081-g9ecb1b80956f86549f8301578bb24b3a1c0ada7c]
+have apps for CPU: yes
+have apps for NVIDIA GPU: no
+have apps for AMD/ATI GPU: no
+have apps for Intel GPU: no
+have apps for Apple GPU: no
+2026-01-26 10:51:47.0942  read 1 platforms, 1 apps, 1 app_versions, 0 assignments
+2026-01-26 10:51:47.0942  Using 100 job slots
+2026-01-26 10:51:47.0966  adding result [RESULT#25] in slot 0
+2026-01-26 10:51:47.0966  adding result [RESULT#26] in slot 1
+2026-01-26 10:51:47.0966  adding result [RESULT#27] in slot 2
+2026-01-26 10:51:47.0966  adding result [RESULT#28] in slot 3
+2026-01-26 10:51:47.0966  adding result [RESULT#29] in slot 4
+2026-01-26 10:51:47.0967  adding result [RESULT#30] in slot 5
+2026-01-26 10:51:47.0967  adding result [RESULT#31] in slot 6
+2026-01-26 10:51:47.0967  adding result [RESULT#32] in slot 7
+2026-01-26 10:51:47.0967  adding result [RESULT#33] in slot 8
+2026-01-26 10:51:47.0967  adding result [RESULT#34] in slot 9
+2026-01-26 10:51:47.0967  adding result [RESULT#35] in slot 10
+2026-01-26 10:51:47.0967  adding result [RESULT#36] in slot 11
+2026-01-26 10:51:47.0968  adding result [RESULT#37] in slot 12
+2026-01-26 10:51:47.0968  adding result [RESULT#38] in slot 13
+2026-01-26 10:51:47.0968  adding result [RESULT#39] in slot 14
+GOT STOP SIGNAL
+2026-01-26 10:57:14.0661  Quitting due to SIGHUP
+2026-01-26 10:57:14.1895  Quitting because trigger file './stop_daemons' is present
+[2026/01/26 10:57:16] Executing command: feeder -d 3
+2026-01-26 10:57:16.2268  Starting
+2026-01-26 10:57:16.2269  9ecb1b80956f86549f8301578bb24b3a1c0ada7c [https://github.com/BOINC/boinc.git] (LegimanComputers:/home/helgidev08/boinc_source [master]) [Server-Release: server_release/1.x/1.x.0-3081-g9ecb1b80956f86549f8301578bb24b3a1c0ada7c]
+have apps for CPU: yes
+have apps for NVIDIA GPU: no
+have apps for AMD/ATI GPU: no
+have apps for Intel GPU: no
+have apps for Apple GPU: no
+2026-01-26 10:57:16.4040  read 1 platforms, 1 apps, 1 app_versions, 0 assignments
+2026-01-26 10:57:16.4040  Using 100 job slots

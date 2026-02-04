@@ -1,0 +1,12 @@
+[2026/01/26 12:33:15] Executing command: file_deleter -d 3
+2026-01-26 12:33:15.3068  Starting
+GOT STOP SIGNAL
+2026-01-26 12:48:18.7296  Quitting due to SIGHUP
+[2026/01/26 12:48:22] Executing command: file_deleter -d 3
+2026-01-26 12:48:22.6948  Starting
+GOT STOP SIGNAL
+2026-01-26 14:21:36.9594  Quitting due to SIGHUP
+[2026/01/26 14:21:39] Executing command: file_deleter -d 3
+2026-01-26 14:21:40.1895  Starting
+Database error: Lost connection to MySQL server during query
+query=select * from result where file_delete_state=1  limit 1500

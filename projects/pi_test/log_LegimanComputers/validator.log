@@ -1,0 +1,163 @@
+2026-01-25 01:39:39.1277 [CRITICAL] must use '--app' to specify an application
+This program is a 'validator'; it handles completed tasks.
+Normally it is run as a daemon from config.xml.
+See: https://github.com/BOINC/boinc/wiki/BackendPrograms
+
+usage: ./bin/sample_trivial_validator [options]
+    Options:
+    --app name                 Process tasks for the given application
+    [--one_pass_N_WU N]        Validate at most N WUs, then exit
+    [--one_pass]               Make one pass through WU table, then exit
+    [--dry_run]                Don't update db, just write logs (for debugging)
+    [--mod n i]                Process only WUs with (id mod n) == i
+    [--max_wu_id n]            Process only WUs with id <= n
+    [--min_wu_id n]            Process only WUs with id >= n
+    [--max_granted_credit X]   Grant no more than this amount of credit to a result
+    [--update_credited_job]    Add record to credited_job table after granting credit
+    [--credit_from_wu]         Credit is specified in WU XML
+    [--credit_from_runtime X]  Grant credit based on runtime (max X seconds)and estimated FLOPS
+    [--no_credit]              Don't grant credit
+    [--check_punitive]         Check failed results and reduce the daily quota to one.
+    [--sleep_interval n]       Set sleep-interval to n
+    [--wu_id n]                Process WU with given ID
+    [-d level|--debug_level n] Set log verbosity level
+    [-h|--help]                Print this usage information and exit
+    [-v|--version]             Print version information and exit
+
+2026-01-25 01:42:39.8548  max_granted_credit: 73000000.000000
+2026-01-25 01:42:39.8548  Starting validator, debug level 3
+2026-01-25 01:42:39.8602  [WU#2 pi_wu_manual_3] handle_wu(): No canonical result yet
+2026-01-25 01:42:39.8614 [warning] [RESULT#4] result has 1e9 flops_estimate
+2026-01-25 01:42:39.8665  [RESULT#4 pi_wu_manual_3_0] Valid; granted 0.020242 credit [HOST#1]
+2026-01-25 01:42:39.8666  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 01:42:39.8824  [WU#3 pi_wu_auto_1_1769297368] handle_wu(): No canonical result yet
+2026-01-25 01:42:39.8829 [warning] [RESULT#5] result has 1e9 flops_estimate
+2026-01-25 01:42:39.8850  [RESULT#5 pi_wu_auto_1_1769297368_0] Valid; granted 0.062148 credit [HOST#1]
+2026-01-25 01:42:39.8850  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 01:42:39.8917  [WU#4 pi_wu_auto_2_1769297368] handle_wu(): No canonical result yet
+2026-01-25 01:42:39.8920 [warning] [RESULT#6] result has 1e9 flops_estimate
+2026-01-25 01:42:39.8954  [RESULT#6 pi_wu_auto_2_1769297368_0] Valid; granted 0.041210 credit [HOST#1]
+2026-01-25 01:42:39.8955  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 01:42:39.8993  [WU#5 pi_wu_auto_3_1769297368] handle_wu(): No canonical result yet
+2026-01-25 01:42:39.8995 [warning] [RESULT#7] result has 1e9 flops_estimate
+2026-01-25 01:42:39.9010  [RESULT#7 pi_wu_auto_3_1769297368_0] Valid; granted 0.072978 credit [HOST#1]
+2026-01-25 01:42:39.9010  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 01:42:39.9064  [WU#6 pi_wu_auto_4_1769297368] handle_wu(): No canonical result yet
+2026-01-25 01:42:39.9067 [warning] [RESULT#8] result has 1e9 flops_estimate
+2026-01-25 01:42:39.9091  [RESULT#8 pi_wu_auto_4_1769297368_0] Valid; granted 0.093042 credit [HOST#1]
+2026-01-25 01:42:39.9091  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 01:42:39.9130  [WU#7 pi_wu_auto_5_1769297368] handle_wu(): No canonical result yet
+2026-01-25 01:42:39.9133 [warning] [RESULT#9] result has 1e9 flops_estimate
+2026-01-25 01:42:39.9147  [RESULT#9 pi_wu_auto_5_1769297368_0] Valid; granted 0.072424 credit [HOST#1]
+2026-01-25 01:42:39.9147  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 01:42:39.9191  [WU#8 pi_wu_auto_6_1769297368] handle_wu(): No canonical result yet
+2026-01-25 01:42:39.9194 [warning] [RESULT#10] result has 1e9 flops_estimate
+2026-01-25 01:42:39.9224  [RESULT#10 pi_wu_auto_6_1769297368_0] Valid; granted 0.030524 credit [HOST#1]
+2026-01-25 01:42:39.9225  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 01:42:39.9272  [WU#9 pi_wu_auto_7_1769297368] handle_wu(): No canonical result yet
+2026-01-25 01:42:39.9274 [warning] [RESULT#11] result has 1e9 flops_estimate
+2026-01-25 01:42:39.9292  [RESULT#11 pi_wu_auto_7_1769297368_0] Valid; granted 0.082641 credit [HOST#1]
+2026-01-25 01:42:39.9292  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 01:42:39.9351  [WU#10 pi_wu_auto_8_1769297368] handle_wu(): No canonical result yet
+2026-01-25 01:42:39.9354 [warning] [RESULT#12] result has 1e9 flops_estimate
+2026-01-25 01:42:39.9381  [RESULT#12 pi_wu_auto_8_1769297368_0] Valid; granted 0.051611 credit [HOST#1]
+2026-01-25 01:42:39.9381  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 01:42:39.9419  [WU#11 pi_wu_auto_9_1769297368] handle_wu(): No canonical result yet
+2026-01-25 01:42:39.9422 [warning] [RESULT#13] result has 1e9 flops_estimate
+2026-01-25 01:42:39.9435  [RESULT#13 pi_wu_auto_9_1769297368_0] Valid; granted 0.020501 credit [HOST#1]
+2026-01-25 01:42:39.9435  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 01:42:39.9489  [WU#12 pi_wu_auto_10_1769297368] handle_wu(): No canonical result yet
+2026-01-25 01:42:39.9492 [warning] [RESULT#14] result has 1e9 flops_estimate
+2026-01-25 01:42:39.9509  [RESULT#14 pi_wu_auto_10_1769297368_0] Valid; granted 0.072245 credit [HOST#1]
+2026-01-25 01:42:39.9509  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 02:15:29.6172  max_granted_credit: 73000000.000000
+2026-01-25 02:15:29.6174  Starting validator, debug level 3
+2026-01-25 02:54:18.5806  [WU#13 pi_wu_auto_1_1769301125] handle_wu(): No canonical result yet
+2026-01-25 02:54:18.5853 [warning] [RESULT#15] result has 1e9 flops_estimate
+2026-01-25 02:54:18.5883  [RESULT#15 pi_wu_auto_1_1769301125_0] Valid; granted 0.020385 credit [HOST#1]
+2026-01-25 02:54:18.5883  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 02:54:28.6047  [WU#14 pi_wu_auto_2_1769301125] handle_wu(): No canonical result yet
+2026-01-25 02:54:28.6051 [warning] [RESULT#16] result has 1e9 flops_estimate
+2026-01-25 02:54:28.6202  [RESULT#16 pi_wu_auto_2_1769301125_0] Valid; granted 0.030790 credit [HOST#1]
+2026-01-25 02:54:28.6202  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 02:54:28.6493  [WU#15 pi_wu_auto_3_1769301125] handle_wu(): No canonical result yet
+2026-01-25 02:54:28.6497 [warning] [RESULT#17] result has 1e9 flops_estimate
+2026-01-25 02:54:28.6522  [RESULT#17 pi_wu_auto_3_1769301125_0] Valid; granted 0.020751 credit [HOST#1]
+2026-01-25 02:54:28.6522  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 02:54:28.6587  [WU#16 pi_wu_auto_4_1769301125] handle_wu(): No canonical result yet
+2026-01-25 02:54:28.6591 [warning] [RESULT#18] result has 1e9 flops_estimate
+2026-01-25 02:54:28.6611  [RESULT#18 pi_wu_auto_4_1769301125_0] Valid; granted 0.031182 credit [HOST#1]
+2026-01-25 02:54:28.6612  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 02:54:28.6698  [WU#17 pi_wu_auto_5_1769301125] handle_wu(): No canonical result yet
+2026-01-25 02:54:28.6703 [warning] [RESULT#19] result has 1e9 flops_estimate
+2026-01-25 02:54:28.6723  [RESULT#19 pi_wu_auto_5_1769301125_0] Valid; granted 0.021119 credit [HOST#1]
+2026-01-25 02:54:28.6724  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 02:54:28.6798  [WU#18 pi_wu_auto_6_1769301125] handle_wu(): No canonical result yet
+2026-01-25 02:54:28.6804 [warning] [RESULT#20] result has 1e9 flops_estimate
+2026-01-25 02:54:28.6827  [RESULT#20 pi_wu_auto_6_1769301125_0] Valid; granted 0.031451 credit [HOST#1]
+2026-01-25 02:54:28.6828  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 02:54:28.6883  [WU#19 pi_wu_auto_7_1769301125] handle_wu(): No canonical result yet
+2026-01-25 02:54:28.6887 [warning] [RESULT#21] result has 1e9 flops_estimate
+2026-01-25 02:54:28.6908  [RESULT#21 pi_wu_auto_7_1769301125_0] Valid; granted 0.031037 credit [HOST#1]
+2026-01-25 02:54:28.6909  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 02:54:28.6973  [WU#20 pi_wu_auto_8_1769301125] handle_wu(): No canonical result yet
+2026-01-25 02:54:28.6977 [warning] [RESULT#22] result has 1e9 flops_estimate
+2026-01-25 02:54:28.6996  [RESULT#22 pi_wu_auto_8_1769301125_0] Valid; granted 0.020695 credit [HOST#1]
+2026-01-25 02:54:28.6997  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 02:54:28.7053  [WU#21 pi_wu_auto_9_1769301125] handle_wu(): No canonical result yet
+2026-01-25 02:54:28.7057 [warning] [RESULT#23] result has 1e9 flops_estimate
+2026-01-25 02:54:28.7076  [RESULT#23 pi_wu_auto_9_1769301125_0] Valid; granted 0.020711 credit [HOST#1]
+2026-01-25 02:54:28.7076  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-25 02:54:28.7136  [WU#22 pi_wu_auto_10_1769301125] handle_wu(): No canonical result yet
+2026-01-25 02:54:28.7140 [warning] [RESULT#24] result has 1e9 flops_estimate
+2026-01-25 02:54:28.7155  [RESULT#24 pi_wu_auto_10_1769301125_0] Valid; granted 0.030796 credit [HOST#1]
+2026-01-25 02:54:28.7155  [HOST#1 AV#1] [outlier=1] Updating HAV in DB.  pfc.n=0.000000->0.000000
+2026-01-26 10:52:12.9234  [WU#23 pi_copy_1_1769417271] handle_wu(): No canonical result yet
+2026-01-26 10:52:12.9477  [RESULT#25 pi_copy_1_1769417271_0] Valid; granted 0.013436 credit [HOST#2]
+2026-01-26 10:52:12.9478  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=0.000000->1.000000
+2026-01-26 10:52:12.9654  [RESULT#26 pi_copy_1_1769417271_1] Valid; granted 0.013436 credit [HOST#2]
+2026-01-26 10:52:12.9654  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=0.000000->1.000000
+2026-01-26 10:52:12.9793  [RESULT#27 pi_copy_1_1769417271_2] Valid; granted 0.013436 credit [HOST#2]
+2026-01-26 10:52:12.9795  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=0.000000->1.000000
+2026-01-26 10:52:12.9935  [WU#24 pi_copy_2_1769417271] handle_wu(): No canonical result yet
+2026-01-26 10:52:12.9995  [RESULT#29 pi_copy_2_1769417271_1] Valid; granted 0.013439 credit [HOST#2]
+2026-01-26 10:52:12.9996  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=1.000000->2.000000
+2026-01-26 10:52:13.0095  [WU#25 pi_copy_3_1769417271] handle_wu(): No canonical result yet
+2026-01-26 10:52:13.0158  [RESULT#31 pi_copy_3_1769417271_0] Valid; granted 0.020202 credit [HOST#2]
+2026-01-26 10:52:13.0158  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=2.000000->3.000000
+2026-01-26 10:52:13.0304  [RESULT#32 pi_copy_3_1769417271_1] Valid; granted 0.020202 credit [HOST#2]
+2026-01-26 10:52:13.0304  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=2.000000->3.000000
+2026-01-26 10:52:28.0534  [WU#24 pi_copy_2_1769417271] Already has canonical result 29
+2026-01-26 10:52:28.0535  [WU#24] handle_wu(): testing result 28
+2026-01-26 10:52:28.0550  [RESULT#28 pi_copy_2_1769417271_0] pair_check() matched: setting result to valid
+2026-01-26 10:52:28.0886  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=3.000000->4.000000
+2026-01-26 10:52:28.0961  [RESULT#28 pi_copy_2_1769417271_0] granted_credit 0.013439
+2026-01-26 10:52:28.0986  [WU#24] handle_wu(): testing result 30
+2026-01-26 10:52:28.0996  [RESULT#30 pi_copy_2_1769417271_2] pair_check() matched: setting result to valid
+2026-01-26 10:52:28.1017  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=4.000000->5.000000
+2026-01-26 10:52:28.1044  [RESULT#30 pi_copy_2_1769417271_2] granted_credit 0.013439
+2026-01-26 10:52:28.1155  [WU#25 pi_copy_3_1769417271] Already has canonical result 31
+2026-01-26 10:52:28.1156  [WU#25] handle_wu(): testing result 33
+2026-01-26 10:52:28.1167  [RESULT#33 pi_copy_3_1769417271_2] pair_check() matched: setting result to valid
+2026-01-26 10:52:28.1205  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=5.000000->6.000000
+2026-01-26 10:52:28.1248  [RESULT#33 pi_copy_3_1769417271_2] granted_credit 0.020202
+2026-01-26 10:52:28.1287  [WU#26 pi_copy_4_1769417271] handle_wu(): No canonical result yet
+2026-01-26 10:52:28.1352  [RESULT#34 pi_copy_4_1769417271_0] Valid; granted 0.030715 credit [HOST#2]
+2026-01-26 10:52:28.1353  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=6.000000->7.000000
+2026-01-26 10:52:28.1459  [RESULT#35 pi_copy_4_1769417271_1] Valid; granted 0.030715 credit [HOST#2]
+2026-01-26 10:52:28.1460  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=6.000000->7.000000
+2026-01-26 10:52:28.1568  [RESULT#36 pi_copy_4_1769417271_2] Valid; granted 0.030715 credit [HOST#2]
+2026-01-26 10:52:28.1570  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=6.000000->7.000000
+2026-01-26 10:52:28.1647  [WU#27 pi_copy_5_1769417271] handle_wu(): No canonical result yet
+2026-01-26 10:52:28.1706  [RESULT#37 pi_copy_5_1769417271_0] Valid; granted 0.030682 credit [HOST#2]
+2026-01-26 10:52:28.1707  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=7.000000->8.000000
+2026-01-26 10:52:28.1797  [RESULT#38 pi_copy_5_1769417271_1] Valid; granted 0.030682 credit [HOST#2]
+2026-01-26 10:52:28.1798  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=7.000000->8.000000
+2026-01-26 10:52:28.1888  [RESULT#39 pi_copy_5_1769417271_2] Valid; granted 0.030682 credit [HOST#2]
+2026-01-26 10:52:28.1888  [HOST#2 AV#1] [outlier=0] Updating HAV in DB.  pfc.n=7.000000->8.000000
+2026-01-26 10:57:14.3447  Quitting because trigger file './stop_daemons' is present
+nohup: ignoring input
+2026-01-26 10:58:53.4188  max_granted_credit: 73000000.000000
+2026-01-26 10:58:53.4189  Starting validator, debug level 3
+GOT STOP SIGNAL
+2026-01-27 13:14:22.1010  Quitting due to SIGHUP

@@ -1,0 +1,74 @@
+[2026/01/26 12:33:15] Executing command: feeder -d 3
+2026-01-26 12:33:15.1320  Starting
+2026-01-26 12:33:15.1321  9ecb1b80956f86549f8301578bb24b3a1c0ada7c [https://github.com/BOINC/boinc.git] (LegimanComputers:/home/helgidev08/boinc_source [master]) [Server-Release: server_release/1.x/1.x.0-3081-g9ecb1b80956f86549f8301578bb24b3a1c0ada7c]
+have apps for CPU: no
+have apps for NVIDIA GPU: no
+have apps for AMD/ATI GPU: no
+have apps for Intel GPU: no
+have apps for Apple GPU: no
+2026-01-26 12:33:15.3891  read 20 platforms, 0 apps, 0 app_versions, 0 assignments
+2026-01-26 12:33:15.3892  Using 100 job slots
+GOT STOP SIGNAL
+2026-01-26 12:48:18.7299  Quitting due to SIGHUP
+[2026/01/26 12:48:22] Executing command: feeder -d 3
+2026-01-26 12:48:22.5274  Starting
+2026-01-26 12:48:22.5275  9ecb1b80956f86549f8301578bb24b3a1c0ada7c [https://github.com/BOINC/boinc.git] (LegimanComputers:/home/helgidev08/boinc_source [master]) [Server-Release: server_release/1.x/1.x.0-3081-g9ecb1b80956f86549f8301578bb24b3a1c0ada7c]
+have apps for CPU: yes
+have apps for NVIDIA GPU: no
+have apps for AMD/ATI GPU: no
+have apps for Intel GPU: no
+have apps for Apple GPU: no
+2026-01-26 12:48:22.6009  read 20 platforms, 1 apps, 1 app_versions, 0 assignments
+2026-01-26 12:48:22.6009  Using 100 job slots
+2026-01-26 13:42:35.2274  adding result [RESULT#1] in slot 0
+2026-01-26 13:42:35.2282  adding result [RESULT#2] in slot 1
+2026-01-26 13:42:35.2284  adding result [RESULT#3] in slot 2
+2026-01-26 13:42:35.2285  adding result [RESULT#4] in slot 3
+2026-01-26 13:42:35.2286  adding result [RESULT#5] in slot 4
+GOT STOP SIGNAL
+2026-01-26 14:21:36.9593  Quitting due to SIGHUP
+[2026/01/26 14:21:39] Executing command: feeder -d 3
+2026-01-26 14:21:39.9987  Starting
+2026-01-26 14:21:39.9988  9ecb1b80956f86549f8301578bb24b3a1c0ada7c [https://github.com/BOINC/boinc.git] (LegimanComputers:/home/helgidev08/boinc_source [master]) [Server-Release: server_release/1.x/1.x.0-3081-g9ecb1b80956f86549f8301578bb24b3a1c0ada7c]
+have apps for CPU: yes
+have apps for NVIDIA GPU: no
+have apps for AMD/ATI GPU: no
+have apps for Intel GPU: no
+have apps for Apple GPU: no
+2026-01-26 14:21:40.1611  read 20 platforms, 1 apps, 1 app_versions, 0 assignments
+2026-01-26 14:21:40.1611  Using 100 job slots
+2026-01-26 14:21:40.1722  adding result [RESULT#1] in slot 0
+2026-01-26 14:21:40.1722  adding result [RESULT#2] in slot 1
+2026-01-26 14:21:40.1722  adding result [RESULT#3] in slot 2
+2026-01-26 14:21:40.1722  adding result [RESULT#4] in slot 3
+2026-01-26 14:21:40.1722  adding result [RESULT#5] in slot 4
+2026-01-26 14:39:32.0033  Found trigger file reread_db; re-scanning database tables.
+have apps for CPU: yes
+have apps for NVIDIA GPU: no
+have apps for AMD/ATI GPU: no
+have apps for Intel GPU: no
+have apps for Apple GPU: no
+2026-01-26 14:39:32.0615  Done re-scanning: trigger file removed.
+2026-01-26 14:39:32.0623  adding result [RESULT#1] in slot 0
+2026-01-26 14:39:32.0624  adding result [RESULT#2] in slot 1
+2026-01-26 14:39:32.0624  adding result [RESULT#3] in slot 2
+2026-01-26 14:39:32.0624  adding result [RESULT#4] in slot 3
+2026-01-26 14:39:32.0624  adding result [RESULT#5] in slot 4
+2026-01-27 13:06:10.1804  adding result [RESULT#6] in slot 5
+2026-01-27 13:06:10.1816  adding result [RESULT#7] in slot 6
+2026-01-27 13:06:10.1819  adding result [RESULT#8] in slot 7
+2026-01-27 13:06:10.1822  adding result [RESULT#9] in slot 8
+2026-01-27 13:06:10.1825  adding result [RESULT#10] in slot 9
+2026-01-27 13:11:47.7028  adding result [RESULT#11] in slot 10
+2026-01-27 13:11:47.7042  adding result [RESULT#12] in slot 11
+2026-01-27 13:11:47.7045  adding result [RESULT#13] in slot 12
+2026-01-27 13:11:47.7049  adding result [RESULT#14] in slot 13
+2026-01-27 13:11:47.7053  adding result [RESULT#15] in slot 14
+2026-01-27 13:13:08.0635  adding result [RESULT#16] in slot 15
+2026-01-27 13:13:08.0638  adding result [RESULT#17] in slot 16
+2026-01-27 13:13:08.0640  adding result [RESULT#18] in slot 17
+2026-01-27 13:13:08.0643  adding result [RESULT#19] in slot 18
+2026-01-27 13:13:08.0646  adding result [RESULT#20] in slot 19
+Database error: Lost connection to MySQL server during query
+query=select high_priority r1.id, r1.priority, r1.server_state, r1.report_deadline,  workunit.* from result r1 force index(ind_res_st), workunit, app  where r1.server_state=2  and r1.workunitid=workunit.id  and workunit.appid=app.id  and app.deprecated=0  and workunit.transitioner_flags=0    order by r1.priority desc, r1.workunitid limit 200
+2026-01-27 13:14:43.6777 [CRITICAL] DB connection lost, exiting

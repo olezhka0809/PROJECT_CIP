@@ -1,0 +1,5 @@
+
+AuthName "euler_e"
+AuthType Basic
+AuthUserFile /home/helgidev08/projects/euler_e//html/ops/.htpasswd
+require valid-user

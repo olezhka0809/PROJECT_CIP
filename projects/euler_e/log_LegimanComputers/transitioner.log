@@ -1,0 +1,33 @@
+[2026/01/26 12:33:15] Executing command: transitioner -d 3
+2026-01-26 12:33:15.2031  Starting
+GOT STOP SIGNAL
+2026-01-26 12:48:18.7297  Quitting due to SIGHUP
+[2026/01/26 12:48:22] Executing command: transitioner -d 3
+2026-01-26 12:48:22.5950  Starting
+2026-01-26 13:42:30.7812  [WU#1 euler_1_1769427748] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-26 13:42:30.7911  [WU#2 euler_2_1769427748] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-26 13:42:30.7938  [WU#3 euler_3_1769427748] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-26 13:42:30.7970  [WU#4 euler_4_1769427748] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-26 13:42:30.8082  [WU#5 euler_5_1769427748] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+GOT STOP SIGNAL
+2026-01-26 14:21:36.9593  Quitting due to SIGHUP
+[2026/01/26 14:21:39] Executing command: transitioner -d 3
+2026-01-26 14:21:40.0918  Starting
+2026-01-27 13:06:08.6309  [WU#6 euler_1_1769511967] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:06:08.6446  [WU#7 euler_2_1769511967] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:06:08.6492  [WU#8 euler_3_1769511967] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:06:08.6537  [WU#9 euler_4_1769511967] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:06:08.6578  [WU#10 euler_5_1769511967] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:11:44.5005  [WU#11 euler_1_1769512303] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:11:44.5376  [WU#12 euler_2_1769512303] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:11:44.5424  [WU#13 euler_3_1769512303] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:11:44.5471  [WU#14 euler_4_1769512303] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:11:44.5572  [WU#15 euler_5_1769512303] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:13:04.6126  [WU#16 euler_1_1769512381] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:13:04.6451  [WU#17 euler_2_1769512382] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:13:04.6489  [WU#18 euler_3_1769512382] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:13:04.6514  [WU#19 euler_4_1769512382] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-27 13:13:04.6548  [WU#20 euler_5_1769512382] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+Database error: Lost connection to MySQL server during query
+query=SELECT    wu.id,    wu.name,    wu.appid,    wu.min_quorum,    wu.need_validate,    wu.canonical_resultid,    wu.transition_time,    wu.delay_bound,    wu.error_mask,    wu.max_error_results,    wu.max_total_results,    wu.file_delete_state,    wu.assimilate_state,    wu.target_nresults,    wu.result_template_file,    wu.priority,    wu.hr_class,    wu.batch,    wu.app_version_id,    wu.transitioner_flags,    wu.size_class,    res.id,    res.name,    res.report_deadline,    res.server_state,    res.outcome,    res.validate_state,    res.file_delete_state,    res.sent_time,    res.hostid,    res.received_time,    res.app_version_id,    res.exit_status FROM    workunit AS wu        LEFT JOIN result AS res ON wu.id = res.workunitid WHERE     wu.transition_time < 1769512484   and transitioner_flags<>1 LIMIT    1000 
+2026-01-27 13:14:44.7791 [CRITICAL] WU enum error: Error 2013; exiting

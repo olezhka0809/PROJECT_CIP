@@ -1,0 +1,10 @@
+cd ~/projects/pi_test
+
+# Pornește validator
+nohup bin/sample_trivial_validator --app pi_compute -d 3 >> log_LegimanComputers/validator.log 2>&1 &
+
+# Pornește assimilator  
+nohup bin/sample_dummy_assimilator --app pi_compute -d 3 >> log_LegimanComputers/assimilator.log 2>&1 &
+
+# Verifică că rulează
+ps aux | grep -E "validator|assimilator" | grep -v grep

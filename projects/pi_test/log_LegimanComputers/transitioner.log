@@ -1,0 +1,110 @@
+[2026/01/24 19:17:27] Executing command: transitioner -d 3
+2026-01-24 19:17:27.1446  Starting
+2026-01-24 19:17:37.1844  [WU#1 pi_wu_1] Generating 3 more results (3 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 00:34:02.9531  [WU#1 pi_wu_1] WU has too many total results (3)
+2026-01-25 00:34:02.9536  [WU#1 pi_wu_1] error_mask:8 assimilate_state:INIT=>READY
+2026-01-25 01:18:05.9921  [WU#2 pi_wu_manual_3] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 01:19:01.0694  [WU#2 pi_wu_manual_3] need_validate:=>true
+2026-01-25 01:29:31.7289  [WU#3 pi_wu_auto_1_1769297368] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 01:29:31.7724  [WU#4 pi_wu_auto_2_1769297368] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 01:29:31.7759  [WU#5 pi_wu_auto_3_1769297368] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 01:29:31.7790  [WU#6 pi_wu_auto_4_1769297368] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 01:29:31.7829  [WU#7 pi_wu_auto_5_1769297368] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 01:29:31.7868  [WU#8 pi_wu_auto_6_1769297368] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 01:29:31.7981  [WU#9 pi_wu_auto_7_1769297368] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 01:29:31.8061  [WU#10 pi_wu_auto_8_1769297368] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 01:29:31.8178  [WU#11 pi_wu_auto_9_1769297368] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 01:29:31.8263  [WU#12 pi_wu_auto_10_1769297368] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 01:37:27.9169  Starting
+2026-01-25 01:38:27.1847  [WU#3 pi_wu_auto_1_1769297368] need_validate:=>true
+2026-01-25 01:38:27.2182  [WU#4 pi_wu_auto_2_1769297368] need_validate:=>true
+2026-01-25 01:38:27.2207  [WU#5 pi_wu_auto_3_1769297368] need_validate:=>true
+2026-01-25 01:38:27.2220  [WU#6 pi_wu_auto_4_1769297368] need_validate:=>true
+2026-01-25 01:38:27.2236  [WU#7 pi_wu_auto_5_1769297368] need_validate:=>true
+2026-01-25 01:38:27.2248  [WU#8 pi_wu_auto_6_1769297368] need_validate:=>true
+2026-01-25 01:38:27.2258  [WU#9 pi_wu_auto_7_1769297368] need_validate:=>true
+2026-01-25 01:38:27.2268  [WU#10 pi_wu_auto_8_1769297368] need_validate:=>true
+2026-01-25 01:38:27.2278  [WU#11 pi_wu_auto_9_1769297368] need_validate:=>true
+2026-01-25 01:38:27.2288  [WU#12 pi_wu_auto_10_1769297368] need_validate:=>true
+2026-01-25 01:42:42.4761  [WU#1 pi_wu_1] WU has too many total results (3)
+2026-01-25 01:42:52.5241  [WU#2 pi_wu_manual_3] [RESULT#4 pi_wu_manual_3_0] file_delete_state:=>READY
+2026-01-25 01:42:52.5594  [WU#3 pi_wu_auto_1_1769297368] [RESULT#5 pi_wu_auto_1_1769297368_0] file_delete_state:=>READY
+2026-01-25 01:42:52.5614  [WU#4 pi_wu_auto_2_1769297368] [RESULT#6 pi_wu_auto_2_1769297368_0] file_delete_state:=>READY
+2026-01-25 01:42:52.5634  [WU#5 pi_wu_auto_3_1769297368] [RESULT#7 pi_wu_auto_3_1769297368_0] file_delete_state:=>READY
+2026-01-25 01:42:52.5652  [WU#6 pi_wu_auto_4_1769297368] [RESULT#8 pi_wu_auto_4_1769297368_0] file_delete_state:=>READY
+2026-01-25 01:42:52.5668  [WU#7 pi_wu_auto_5_1769297368] [RESULT#9 pi_wu_auto_5_1769297368_0] file_delete_state:=>READY
+2026-01-25 01:42:52.5690  [WU#8 pi_wu_auto_6_1769297368] [RESULT#10 pi_wu_auto_6_1769297368_0] file_delete_state:=>READY
+2026-01-25 01:42:52.5707  [WU#9 pi_wu_auto_7_1769297368] [RESULT#11 pi_wu_auto_7_1769297368_0] file_delete_state:=>READY
+2026-01-25 01:42:52.5732  [WU#10 pi_wu_auto_8_1769297368] [RESULT#12 pi_wu_auto_8_1769297368_0] file_delete_state:=>READY
+2026-01-25 01:42:52.5819  [WU#11 pi_wu_auto_9_1769297368] [RESULT#13 pi_wu_auto_9_1769297368_0] file_delete_state:=>READY
+2026-01-25 01:42:52.5837  [WU#12 pi_wu_auto_10_1769297368] [RESULT#14 pi_wu_auto_10_1769297368_0] file_delete_state:=>READY
+2026-01-25 01:47:12.5351  Starting
+2026-01-25 02:15:29.6057  Starting
+2026-01-25 02:26:45.9440  Starting
+2026-01-25 02:32:06.2216  [WU#13 pi_wu_auto_1_1769301125] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 02:32:06.2584  [WU#14 pi_wu_auto_2_1769301125] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 02:32:06.2608  [WU#15 pi_wu_auto_3_1769301125] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 02:32:06.2643  [WU#16 pi_wu_auto_4_1769301125] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 02:32:06.2659  [WU#17 pi_wu_auto_5_1769301125] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 02:32:06.2675  [WU#18 pi_wu_auto_6_1769301125] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 02:32:06.2713  [WU#19 pi_wu_auto_7_1769301125] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 02:32:06.2856  [WU#20 pi_wu_auto_8_1769301125] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 02:32:06.2894  [WU#21 pi_wu_auto_9_1769301125] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 02:32:06.2918  [WU#22 pi_wu_auto_10_1769301125] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2026-01-25 02:54:13.8495  [WU#13 pi_wu_auto_1_1769301125] need_validate:=>true
+2026-01-25 02:54:23.8982  [WU#14 pi_wu_auto_2_1769301125] need_validate:=>true
+2026-01-25 02:54:23.9120  [WU#15 pi_wu_auto_3_1769301125] need_validate:=>true
+2026-01-25 02:54:23.9138  [WU#16 pi_wu_auto_4_1769301125] need_validate:=>true
+2026-01-25 02:54:23.9153  [WU#17 pi_wu_auto_5_1769301125] need_validate:=>true
+2026-01-25 02:54:23.9165  [WU#18 pi_wu_auto_6_1769301125] need_validate:=>true
+2026-01-25 02:54:23.9176  [WU#19 pi_wu_auto_7_1769301125] need_validate:=>true
+2026-01-25 02:54:23.9197  [WU#20 pi_wu_auto_8_1769301125] need_validate:=>true
+2026-01-25 02:54:23.9206  [WU#21 pi_wu_auto_9_1769301125] need_validate:=>true
+2026-01-25 02:54:23.9217  [WU#22 pi_wu_auto_10_1769301125] need_validate:=>true
+2026-01-25 02:54:28.9244  [WU#13 pi_wu_auto_1_1769301125] [RESULT#15 pi_wu_auto_1_1769301125_0] file_delete_state:=>READY
+2026-01-25 02:54:38.9319  [WU#14 pi_wu_auto_2_1769301125] [RESULT#16 pi_wu_auto_2_1769301125_0] file_delete_state:=>READY
+2026-01-25 02:54:38.9651  [WU#15 pi_wu_auto_3_1769301125] [RESULT#17 pi_wu_auto_3_1769301125_0] file_delete_state:=>READY
+2026-01-25 02:54:38.9677  [WU#16 pi_wu_auto_4_1769301125] [RESULT#18 pi_wu_auto_4_1769301125_0] file_delete_state:=>READY
+2026-01-25 02:54:38.9698  [WU#17 pi_wu_auto_5_1769301125] [RESULT#19 pi_wu_auto_5_1769301125_0] file_delete_state:=>READY
+2026-01-25 02:54:38.9719  [WU#18 pi_wu_auto_6_1769301125] [RESULT#20 pi_wu_auto_6_1769301125_0] file_delete_state:=>READY
+2026-01-25 02:54:38.9749  [WU#19 pi_wu_auto_7_1769301125] [RESULT#21 pi_wu_auto_7_1769301125_0] file_delete_state:=>READY
+2026-01-25 02:54:38.9769  [WU#20 pi_wu_auto_8_1769301125] [RESULT#22 pi_wu_auto_8_1769301125_0] file_delete_state:=>READY
+2026-01-25 02:54:38.9787  [WU#21 pi_wu_auto_9_1769301125] [RESULT#23 pi_wu_auto_9_1769301125_0] file_delete_state:=>READY
+2026-01-25 02:54:38.9807  [WU#22 pi_wu_auto_10_1769301125] [RESULT#24 pi_wu_auto_10_1769301125_0] file_delete_state:=>READY
+2026-01-26 10:47:52.9936  [WU#23 pi_copy_1_1769417271] Generating 3 more results (3 target - 0 unsent - 0 in progress - 0 success)
+2026-01-26 10:47:53.0527  [WU#24 pi_copy_2_1769417271] Generating 3 more results (3 target - 0 unsent - 0 in progress - 0 success)
+2026-01-26 10:47:53.0605  [WU#25 pi_copy_3_1769417271] Generating 3 more results (3 target - 0 unsent - 0 in progress - 0 success)
+2026-01-26 10:47:53.0650  [WU#26 pi_copy_4_1769417271] Generating 3 more results (3 target - 0 unsent - 0 in progress - 0 success)
+2026-01-26 10:47:53.0939  [WU#27 pi_copy_5_1769417271] Generating 3 more results (3 target - 0 unsent - 0 in progress - 0 success)
+[2026/01/26 10:51:46] Executing command: transitioner -d 3
+2026-01-26 10:51:47.1210  Starting
+2026-01-26 10:52:12.1723  [WU#23 pi_copy_1_1769417271] need_validate:=>true
+2026-01-26 10:52:12.1774  [WU#24 pi_copy_2_1769417271] need_validate:=>true
+2026-01-26 10:52:12.1789  [WU#25 pi_copy_3_1769417271] need_validate:=>true
+2026-01-26 10:52:22.1843  [WU#23 pi_copy_1_1769417271] [RESULT#25 pi_copy_1_1769417271_0] file_delete_state:=>READY
+2026-01-26 10:52:22.2154  [WU#23 pi_copy_1_1769417271] [RESULT#26 pi_copy_1_1769417271_1] file_delete_state:=>READY
+2026-01-26 10:52:22.2179  [WU#23 pi_copy_1_1769417271] [RESULT#27 pi_copy_1_1769417271_2] file_delete_state:=>READY
+2026-01-26 10:52:22.2225  [WU#25 pi_copy_3_1769417271] [RESULT#32 pi_copy_3_1769417271_1] file_delete_state:=>READY
+2026-01-26 10:52:27.2287  [WU#24 pi_copy_2_1769417271] need_validate:=>true
+2026-01-26 10:52:27.2359  [WU#25 pi_copy_3_1769417271] need_validate:=>true
+2026-01-26 10:52:27.2382  [WU#26 pi_copy_4_1769417271] need_validate:=>true
+2026-01-26 10:52:27.2403  [WU#27 pi_copy_5_1769417271] need_validate:=>true
+2026-01-26 10:52:32.2466  [WU#24 pi_copy_2_1769417271] [RESULT#28 pi_copy_2_1769417271_0] file_delete_state:=>READY
+2026-01-26 10:52:32.2797  [WU#24 pi_copy_2_1769417271] [RESULT#29 pi_copy_2_1769417271_1] file_delete_state:=>READY
+2026-01-26 10:52:32.2844  [WU#24 pi_copy_2_1769417271] [RESULT#30 pi_copy_2_1769417271_2] file_delete_state:=>READY
+2026-01-26 10:52:32.2906  [WU#25 pi_copy_3_1769417271] [RESULT#31 pi_copy_3_1769417271_0] file_delete_state:=>READY
+2026-01-26 10:52:32.2934  [WU#25 pi_copy_3_1769417271] [RESULT#33 pi_copy_3_1769417271_2] file_delete_state:=>READY
+2026-01-26 10:52:32.3050  [WU#26 pi_copy_4_1769417271] [RESULT#34 pi_copy_4_1769417271_0] file_delete_state:=>READY
+2026-01-26 10:52:32.3103  [WU#26 pi_copy_4_1769417271] [RESULT#35 pi_copy_4_1769417271_1] file_delete_state:=>READY
+2026-01-26 10:52:32.3126  [WU#26 pi_copy_4_1769417271] [RESULT#36 pi_copy_4_1769417271_2] file_delete_state:=>READY
+2026-01-26 10:52:32.3175  [WU#27 pi_copy_5_1769417271] [RESULT#37 pi_copy_5_1769417271_0] file_delete_state:=>READY
+2026-01-26 10:52:32.3192  [WU#27 pi_copy_5_1769417271] [RESULT#38 pi_copy_5_1769417271_1] file_delete_state:=>READY
+2026-01-26 10:52:32.3219  [WU#27 pi_copy_5_1769417271] [RESULT#39 pi_copy_5_1769417271_2] file_delete_state:=>READY
+GOT STOP SIGNAL
+2026-01-26 10:57:14.0660  Quitting due to SIGHUP
+2026-01-26 10:57:14.3247  Quitting because trigger file './stop_daemons' is present
+[2026/01/26 10:57:16] Executing command: transitioner -d 3
+2026-01-26 10:57:16.3267  Starting
+Database error: Lost connection to MySQL server during query
+query=SELECT    wu.id,    wu.name,    wu.appid,    wu.min_quorum,    wu.need_validate,    wu.canonical_resultid,    wu.transition_time,    wu.delay_bound,    wu.error_mask,    wu.max_error_results,    wu.max_total_results,    wu.file_delete_state,    wu.assimilate_state,    wu.target_nresults,    wu.result_template_file,    wu.priority,    wu.hr_class,    wu.batch,    wu.app_version_id,    wu.transitioner_flags,    wu.size_class,    res.id,    res.name,    res.report_deadline,    res.server_state,    res.outcome,    res.validate_state,    res.file_delete_state,    res.sent_time,    res.hostid,    res.received_time,    res.app_version_id,    res.exit_status FROM    workunit AS wu        LEFT JOIN result AS res ON wu.id = res.workunitid WHERE     wu.transition_time < 1769512483   and transitioner_flags<>1 LIMIT    1000 
+2026-01-27 13:14:43.6758 [CRITICAL] WU enum error: Error 2013; exiting

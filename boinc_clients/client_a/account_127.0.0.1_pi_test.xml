@@ -1,0 +1,26 @@
+<account>
+    <master_url>http://127.0.0.1/pi_test/</master_url>
+    <authenticator>c6aad97f8ca22e9ea2246fed7ccd98ca</authenticator>
+    <project_name>pi_test</project_name>
+<project_preferences>
+</project_preferences>
+<gui_urls>
+
+    <gui_url>
+        <name>Message boards</name>
+        <description>Correspond with other users on the pi_test message boards</description>
+        <url>http://127.0.0.1/pi_test/forum_index.php</url>
+    </gui_url>
+    <gui_url>
+        <name>Your account</name>
+        <description>View your account information</description>
+        <url>http://127.0.0.1/pi_test/home.php</url>
+    </gui_url>
+    <gui_url>
+        <name>Your tasks</name>
+        <description>View the last week or so of computational work</description>
+        <url>http://127.0.0.1/pi_test/results.php?userid=1</url>
+    </gui_url>
+    
+</gui_urls>
+</account>

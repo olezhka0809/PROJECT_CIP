@@ -1,0 +1,5 @@
+
+AuthName "pi_test"
+AuthType Basic
+AuthUserFile /home/helgidev08/projects/pi_test//html/ops/.htpasswd
+require valid-user

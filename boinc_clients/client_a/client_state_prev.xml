@@ -1,0 +1,136 @@
+<client_state>
+<host_info>
+    <timezone>7200</timezone>
+    <domain_name>LegimanComputers</domain_name>
+    <ip_addr>127.0.1.1</ip_addr>
+    <host_cpid>8a9692ae62e87b232ff893a6902fee4a</host_cpid>
+    <p_ncpus>8</p_ncpus>
+    <p_vendor>GenuineIntel</p_vendor>
+    <p_model>Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz [Family 6 Model 158 Stepping 10]</p_model>
+    <p_features>fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti ssbd ibrs ibpb stibp tpr_shadow ept vpid ept_ad fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves vnmi md_clear flush_l1d arch_capabilities</p_features>
+    <p_fpops>2496662661.825693</p_fpops>
+    <p_iops>3551621399.077811</p_iops>
+    <p_membw>1000000000.000000</p_membw>
+    <p_calculated>1769275186.808509</p_calculated>
+    <p_vm_extensions_disabled>0</p_vm_extensions_disabled>
+    <m_nbytes>6130200576.000000</m_nbytes>
+    <m_cache>8388608.000000</m_cache>
+    <m_swap>2147483648.000000</m_swap>
+    <d_total>1081101176832.000000</d_total>
+    <d_free>1015596101632.000000</d_free>
+    <os_name>Linux Ubuntu</os_name>
+    <os_version>Ubuntu 24.04.3 LTS [6.6.87.2-microsoft-standard-WSL2|libc 2.39]</os_version>
+    <n_usable_coprocs>0</n_usable_coprocs>
+    <coprocs>
+    </coprocs>
+</host_info>
+<time_stats>
+    <on_frac>0.958735</on_frac>
+    <connected_frac>-1.000000</connected_frac>
+    <cpu_and_network_available_frac>0.998946</cpu_and_network_available_frac>
+    <active_frac>0.998946</active_frac>
+    <gpu_active_frac>0.998946</gpu_active_frac>
+    <client_start_time>1769275153.955350</client_start_time>
+    <total_start_time>1769275155.751531</total_start_time>
+    <total_duration>116187.060929</total_duration>
+    <total_active_duration>115227.013326</total_active_duration>
+    <total_gpu_active_duration>115227.013326</total_gpu_active_duration>
+    <previous_uptime>153848.185023</previous_uptime>
+    <last_update>1769428994.016837</last_update>
+</time_stats>
+<net_stats>
+    <bwup>6470084.125018</bwup>
+    <avg_up>519483936310.935913</avg_up>
+    <avg_time_up>1769429001.127767</avg_time_up>
+    <bwdown>10277804.123727</bwdown>
+    <avg_down>859982232750.991821</avg_down>
+    <avg_time_down>1769363044.103306</avg_time_down>
+</net_stats>
+<project>
+    <master_url>http://127.0.0.1/pi_test/</master_url>
+    <project_name>pi_test</project_name>
+    <symstore></symstore>
+    <user_name>Helgi0809</user_name>
+    <team_name></team_name>
+    <host_venue></host_venue>
+    <email_hash>29a4fd2cddce2aefe011f17fdd94726c</email_hash>
+    <cross_project_id>024bf75ff186c0e3fdf25fb7cf30bac1</cross_project_id>
+    <external_cpid>74b4779f2f5de03a9ead8302c9b515ff</external_cpid>
+    <cpid_time>1769276442.000000</cpid_time>
+    <user_total_credit>0.325423</user_total_credit>
+    <user_expavg_credit>0.032122</user_expavg_credit>
+    <user_create_time>1769276442.000000</user_create_time>
+    <rpc_seqno>0</rpc_seqno>
+    <userid>1</userid>
+    <teamid>0</teamid>
+    <hostid>2</hostid>
+    <host_total_credit>0.325423</host_total_credit>
+    <host_expavg_credit>0.032183</host_expavg_credit>
+    <host_create_time>1769363041.000000</host_create_time>
+    <nrpc_failures>0</nrpc_failures>
+    <master_fetch_failures>0</master_fetch_failures>
+    <min_rpc_time>1769429009.140373</min_rpc_time>
+    <next_rpc_time>0.000000</next_rpc_time>
+    <rec>0.000000</rec>
+    <rec_time>0.000000</rec_time>
+    <resource_share>100.000000</resource_share>
+    <disk_usage>0.000000</disk_usage>
+    <disk_share>1070290165063.680054</disk_share>
+    <desired_disk_usage>0.000000</desired_disk_usage>
+    <duration_correction_factor>1.000000</duration_correction_factor>
+    <sched_rpc_pending>0</sched_rpc_pending>
+    <send_time_stats_log>0</send_time_stats_log>
+    <send_job_log>0</send_job_log>
+    <njobs_success>0</njobs_success>
+    <njobs_error>0</njobs_error>
+    <elapsed_time>0.000000</elapsed_time>
+    <last_rpc_time>1769429002.140373</last_rpc_time>
+    <dont_use_dcf/>
+    <rsc_backoff_time>
+        <name>CPU</name>
+        <value>1769467893.086162</value>
+    </rsc_backoff_time>
+    <rsc_backoff_interval>
+        <name>CPU</name>
+        <value>38400.000000</value>
+    </rsc_backoff_interval>
+    <scheduler_url>http://127.0.0.1/pi_test_cgi/scheduler</scheduler_url>
+    <code_sign_key>
+1024
+c5c3478078ffe4ff059df0b2402d361f371845dcb15b2daf8ee8ebd7221d0a47
+555f67e4e126c9980ff9548a116d1723ebb7f3e0b4947369a7b3bfac3fc94f57
+90b673a388f0dd23e824517a369db9d281eb8db605a55c1ef9319167ffd850a1
+aa73a89e3004a6d3ca8ea1dc099a69a18369547183441fdb829107b98be00f29
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000010001
+.
+</code_sign_key>
+    <cpu_ec>0.000000</cpu_ec>
+    <cpu_time>0.000000</cpu_time>
+    <gpu_ec>0.000000</gpu_ec>
+    <gpu_time>0.000000</gpu_time>
+</project>
+<active_task_set>
+</active_task_set>
+<platform_name>x86_64-pc-linux-gnu</platform_name>
+<core_client_major_version>8</core_client_major_version>
+<core_client_minor_version>3</core_client_minor_version>
+<core_client_release>0</core_client_release>
+<user_run_request>2</user_run_request>
+<user_run_prev_request>2</user_run_prev_request>
+<user_gpu_request>2</user_gpu_request>
+<user_gpu_prev_request>2</user_gpu_prev_request>
+<user_network_request>2</user_network_request>
+<new_version_check_time>1769363043.100025</new_version_check_time>
+<all_projects_list_check_time>1769275157.764663</all_projects_list_check_time>
+<client_version_check_url>https://boinc.berkeley.edu/download.php?xml=1</client_version_check_url>
+<user_cpids>
+   <user_cpid>
+      <email_hash>29a4fd2cddce2aefe011f17fdd94726c</email_hash>
+      <cpid>024bf75ff186c0e3fdf25fb7cf30bac1</cpid>
+      <time>1769276442.000000</time>
+   </user_cpid>
+</user_cpids>
+</client_state>

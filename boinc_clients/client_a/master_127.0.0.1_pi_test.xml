@@ -1,0 +1,12 @@
+<!-- <scheduler>http://127.0.0.1/pi_test_cgi/scheduler</scheduler> -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pi_test</title>
+    <link rel="boinc_scheduler" href="http://127.0.0.1/pi_test_cgi/scheduler">
+</head>
+<body>
+<h1>BOINC Project: pi_test</h1>
+<p>PI Computation Project</p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<scheduler_reply>
+<scheduler_version>803</scheduler_version>
+<dont_use_dcf/>
+<master_url>http://127.0.0.1/pi_test/</master_url>
+<request_delay>7.000000</request_delay>
+<message priority="low">Project has no tasks available</message>
+<project_name>pi_test</project_name>
+<userid>1</userid>
+<user_name>Helgi0809</user_name>
+<user_total_credit>0.325423</user_total_credit>
+<user_expavg_credit>0.032122</user_expavg_credit>
+<user_create_time>1769276442</user_create_time>
+<email_hash>29a4fd2cddce2aefe011f17fdd94726c</email_hash>
+<cross_project_id>024bf75ff186c0e3fdf25fb7cf30bac1</cross_project_id>
+<external_cpid>74b4779f2f5de03a9ead8302c9b515ff</external_cpid>
+
+<host_total_credit>0.325423</host_total_credit>
+<host_expavg_credit>0.032183</host_expavg_credit>
+<host_venue></host_venue>
+<host_create_time>1769363041</host_create_time>
+<team_name></team_name>
+<gui_urls>
+    <gui_url>
+        <name>Message boards</name>
+        <description>Correspond with other users on the pi_test message boards</description>
+        <url>http://127.0.0.1/pi_test/forum_index.php</url>
+    </gui_url>
+    <gui_url>
+        <name>Your account</name>
+        <description>View your account information</description>
+        <url>http://127.0.0.1/pi_test/home.php</url>
+    </gui_url>
+    <gui_url>
+        <name>Your tasks</name>
+        <description>View the last week or so of computational work</description>
+        <url>http://127.0.0.1/pi_test/results.php?userid=1</url>
+    </gui_url>
+    
+</gui_urls>
+<rss_feeds>
+    <rss_feed>
+        <url>http://127.0.0.1/pi_test/notices.php?userid=1&auth=1_e8dac500e99d4df1091ba617ee16c03f</url>
+        <poll_interval>86400</poll_interval>
+    </rss_feed>
+</rss_feeds>
+</scheduler_reply>

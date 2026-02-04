@@ -1,0 +1,4 @@
+
+<!-- <scheduler>http://localhost/euler_e/euler_e_cgi/cgi</scheduler> -->
+<link rel="boinc_scheduler" href="http://localhost/euler_e/euler_e_cgi/cgi">
+        

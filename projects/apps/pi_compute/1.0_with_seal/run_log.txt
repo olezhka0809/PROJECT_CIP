@@ -1,0 +1,42 @@
+=== Ștergerea rezultatelor vechi ===
+removed '/home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result1.txt'
+removed '/home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result2.txt'
+removed '/home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result3.txt'
+removed '/home/helgidev08/projects/apps/pi_compute/1.0_with_seal/seal_parms.bin'
+removed '/home/helgidev08/projects/apps/pi_compute/1.0_with_seal/public_key.bin'
+removed '/home/helgidev08/projects/apps/pi_compute/1.0_with_seal/secret_key.bin'
+✅ Curățenie terminată
+
+=== Rulăm pi_compute_seal ===
+=== Pi Calculation with Temperature Monitoring ===
+Number of samples: 1000000
+Pi estimate: 3.14276
+CPU Temperature: 48°C
+Generating new SEAL keys...
+✓ Keys saved
+Encrypting temperature with SEAL...
+✓ Temperature encrypted and saved to result1.txt.encrypted
+Results written to result1.txt
+✓ Data ready for transmission
+=== Pi Calculation with Temperature Monitoring ===
+Number of samples: 2000000
+Pi estimate: 3.14126
+CPU Temperature: 63°C
+Loading existing SEAL keys...
+✓ Keys loaded
+Encrypting temperature with SEAL...
+✓ Temperature encrypted and saved to result2.txt.encrypted
+Results written to result2.txt
+✓ Data ready for transmission
+=== Pi Calculation with Temperature Monitoring ===
+Number of samples: 3000000
+Pi estimate: 3.14175
+CPU Temperature: 55°C
+Loading existing SEAL keys...
+✓ Keys loaded
+Encrypting temperature with SEAL...
+✓ Temperature encrypted and saved to result3.txt.encrypted
+Results written to result3.txt
+✓ Data ready for transmission
+
+=== Verificăm temperaturile criptate ===

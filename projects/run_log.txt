@@ -1,0 +1,73 @@
+=== Encrypted Temperature Analysis ===
+Threshold: 60°C
+Number of clients: 3
+
+=== Encrypted Temperature Analysis ===
+Threshold: 60°C
+Number of clients: 3
+
+=== Encrypted Temperature Analysis ===
+Threshold: 60°C
+Number of clients: 3
+
+Loading keys from: /home/helgidev08/projects/apps/pi_compute/1.0_with_seal
+Reading /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result1.txt...
+Reading /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result2.txt...
+Reading /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result3.txt...
+=== Encrypted Temperature Analysis ===
+Threshold: 60°C
+Number of clients: 3
+
+Loading keys from: /home/helgidev08/projects/apps/pi_compute/1.0_with_seal
+Reading /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result1.txt...
+  Looking for: /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result1.txt.encrypted
+  ✓ Encrypted temperature loaded
+Reading /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result2.txt...
+  Looking for: /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result2.txt.encrypted
+  ✓ Encrypted temperature loaded
+Reading /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result3.txt...
+  Looking for: /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result3.txt.encrypted
+  ✓ Encrypted temperature loaded
+
+=== Homomorphic Computation ===
+Computing average on encrypted data...
+✓ Average temperature (decrypted): 62°C
+
+=== Threshold Check ===
+⚠ WARNING: Average temperature EXCEEDS threshold!
+  Average: 62°C
+  Threshold: 60°C
+  Difference: +2°C
+
+=== Security Benefits ===
+✓ Individual temps remained encrypted throughout
+✓ Server computed average without seeing individual values
+✓ Privacy-preserving temperature monitoring
+=== Encrypted Temperature Analysis ===
+Threshold: 60°C
+Number of clients: 3
+
+Loading keys from: /home/helgidev08/projects/apps/pi_compute/1.0_with_seal
+Reading /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result1.txt...
+  Looking for: /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result1.txt.encrypted
+  ✓ Encrypted temperature loaded
+Reading /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result2.txt...
+  Looking for: /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result2.txt.encrypted
+  ✓ Encrypted temperature loaded
+Reading /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result3.txt...
+  Looking for: /home/helgidev08/projects/apps/pi_compute/1.0_with_seal/result3.txt.encrypted
+  ✓ Encrypted temperature loaded
+
+=== Homomorphic Computation ===
+Computing average on encrypted data...
+✓ Average temperature (decrypted): 55.3333°C
+
+=== Threshold Check ===
+✓ OK: Average temperature within safe limits
+  Average: 55.3333°C
+  Margin: 4.66667°C
+
+=== Security Benefits ===
+✓ Individual temps remained encrypted throughout
+✓ Server computed average without seeing individual values
+✓ Privacy-preserving temperature monitoring

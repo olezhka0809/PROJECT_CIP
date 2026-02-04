@@ -1,0 +1,5 @@
+<scheduler_reply>
+    <message priority="low">Server error: feeder not running</message>
+    <request_delay>3600</request_delay>
+    <project_is_down/>
+</scheduler_reply>

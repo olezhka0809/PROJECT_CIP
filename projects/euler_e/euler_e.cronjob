@@ -1,0 +1,1 @@
+0,5,10,15,20,25,30,35,40,45,50,55 * * * * cd /home/helgidev08/projects/euler_e ; /home/helgidev08/projects/euler_e/bin/start --cron

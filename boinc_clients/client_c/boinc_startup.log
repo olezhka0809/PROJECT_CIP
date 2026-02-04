@@ -1,0 +1,61 @@
+04-Feb-2026 14:00:55 [---] Starting BOINC client version 8.3.0 for x86_64-pc-linux-gnu
+04-Feb-2026 14:00:55 [---] This a development version of BOINC and may not function properly
+04-Feb-2026 14:00:55 [---] log flags: file_xfer, sched_ops, task
+04-Feb-2026 14:00:55 [---] cURL libraries: libcurl/8.5.0 OpenSSL/3.0.13 zlib/1.3 brotli/1.1.0 zstd/1.5.5 libidn2/2.3.7 libpsl/0.21.2 (+libidn2/2.3.7) libssh/0.10.6/openssl/zlib nghttp2/1.59.0 librtmp/2.3 OpenLDAP/2.6.7
+04-Feb-2026 14:00:55 [---] Data directory: /home/helgidev08/boinc_clients/client_c
+04-Feb-2026 14:00:56 [---] No usable GPUs found
+04-Feb-2026 14:00:56 [---] Creating new client state file
+04-Feb-2026 14:00:56 [---] Computer name: LegimanComputers
+04-Feb-2026 14:00:56 [---] Processor: 8 GenuineIntel Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz [Family 6 Model 158 Stepping 10]
+04-Feb-2026 14:00:56 [---] Processor features: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti ssbd ibrs ibpb stibp tpr_shadow ept vpid ept_ad fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves vnmi md_clear flush_l1d arch_capabilities
+04-Feb-2026 14:00:56 [---] OS: Linux Ubuntu: Ubuntu 24.04.3 LTS [6.6.87.2-microsoft-standard-WSL2|libc 2.39]
+04-Feb-2026 14:00:56 [---] Memory: 5.71 GB physical, 2.00 GB virtual
+04-Feb-2026 14:00:56 [---] Disk: 1006.85 GB total, 945.80 GB free
+04-Feb-2026 14:00:56 [---] Local time is UTC +2 hours
+04-Feb-2026 14:00:56 [---] Some projects require Docker; we recommend that you install it.
+04-Feb-2026 14:00:56 [---] See https://github.com/BOINC/boinc/wiki/Installing-Docker-on-Linux
+04-Feb-2026 14:00:56 [---] Config: GUI RPC allowed from any host
+04-Feb-2026 14:00:57 [---] No general preferences found - using defaults
+04-Feb-2026 14:00:57 [---] Computing preferences:
+04-Feb-2026 14:00:57 [---] -  When computer is in use
+04-Feb-2026 14:00:57 [---] -     'In use' means mouse/keyboard input in last 3.00 minutes
+04-Feb-2026 14:00:57 [---] -     don't use GPU
+04-Feb-2026 14:00:57 [---] -     Use at most 100% of the CPU time
+04-Feb-2026 14:00:57 [---] -     suspend if non-BOINC CPU load exceeds 25%
+04-Feb-2026 14:00:57 [---] -     max memory usage: 2.85 GB
+04-Feb-2026 14:00:57 [---] -  When computer is not in use
+04-Feb-2026 14:00:57 [---] -     max CPUs used: 8
+04-Feb-2026 14:00:57 [---] -     Use at most 100% of the CPU time
+04-Feb-2026 14:00:57 [---] -     suspend if non-BOINC CPU load exceeds 50%
+04-Feb-2026 14:00:57 [---] -     max memory usage: 5.14 GB
+04-Feb-2026 14:00:57 [---] -  Suspend if running on batteries
+04-Feb-2026 14:00:57 [---] -  Store at least 0.10 days of work
+04-Feb-2026 14:00:57 [---] -  Store up to an additional 0.50 days of work
+04-Feb-2026 14:00:57 [---] -  max disk usage: 906.17 GB
+04-Feb-2026 14:00:57 [---] -  (to change preferences, visit a project web site or select 'Options / Computing preferences...' in the Manager)
+04-Feb-2026 14:00:57 [---] Setting up project and slot directories
+04-Feb-2026 14:00:57 [---] Checking active tasks
+04-Feb-2026 14:00:57 [http://127.0.0.1/pi_test/] URL http://127.0.0.1/pi_test/; Computer ID not assigned yet; resource share 100
+04-Feb-2026 14:00:57 [---] Setting up GUI RPC socket
+04-Feb-2026 14:00:57 [---] Checking presence of 0 project files
+04-Feb-2026 14:00:57 Initialization completed
+04-Feb-2026 14:00:57 [---] Running CPU benchmarks
+04-Feb-2026 14:00:57 [---] Suspending computation - CPU benchmarks in progress
+04-Feb-2026 14:00:57 [http://127.0.0.1/pi_test/] Fetching scheduler list
+04-Feb-2026 14:00:59 [http://127.0.0.1/pi_test/] Master file download succeeded
+04-Feb-2026 14:01:04 [http://127.0.0.1/pi_test/] Sending scheduler request: Project initialization.
+04-Feb-2026 14:01:04 [http://127.0.0.1/pi_test/] Requesting new tasks for CPU
+04-Feb-2026 14:01:06 [---] Some projects require Docker; we recommend that you install it.
+04-Feb-2026 14:01:06 [---] See https://github.com/BOINC/boinc/wiki/Installing-Docker-on-Linux
+04-Feb-2026 14:01:06 [http://127.0.0.1/pi_test/] Scheduler request completed: got 0 new tasks
+04-Feb-2026 14:01:06 [http://127.0.0.1/pi_test/] Server error: feeder not running
+04-Feb-2026 14:01:06 [http://127.0.0.1/pi_test/] Project requested delay of 3600 seconds
+04-Feb-2026 14:01:28 [---] Benchmark results:
+04-Feb-2026 14:01:28 [---] Number of CPUs: 8
+04-Feb-2026 14:01:28 [---] 2553 floating point MIPS (Whetstone) per CPU
+04-Feb-2026 14:01:28 [---] 3603 integer MIPS (Dhrystone) per CPU
+04-Feb-2026 15:01:07 [http://127.0.0.1/pi_test/] Sending scheduler request: To fetch work.
+04-Feb-2026 15:01:07 [http://127.0.0.1/pi_test/] Requesting new tasks for CPU
+04-Feb-2026 15:01:09 [http://127.0.0.1/pi_test/] Scheduler request completed: got 0 new tasks
+04-Feb-2026 15:01:09 [http://127.0.0.1/pi_test/] Server error: feeder not running
+04-Feb-2026 15:01:09 [http://127.0.0.1/pi_test/] Project requested delay of 3600 seconds

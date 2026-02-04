@@ -1,0 +1,21 @@
+2026-01-25 01:48:13.2409 [CRITICAL] unknown command line argument: --one_pass
+
+Update average credit for idle users, hosts and teams.
+These fields are updates as new credit is granted;
+the purpose of this program is to decay credit of entities
+that are inactive for long periods.
+Hence it should be run about once a day at most.
+
+Also updates the nusers field of teams
+
+Usage: ./bin/update_stats [OPTION]...
+
+Options:
+  [ -d X ]                        Set debug level to X
+  [ --update_teams ]              Updates teams.
+  [ --update_users ]              Updates users.
+  [ --update_hosts ]              Updates hosts.
+  [ -h | --help ]                 Shows this help text
+  [ -v | --version ]              Shows version information
+2026-01-25 02:15:48.2512  Starting
+2026-01-25 02:15:48.2907  Finished

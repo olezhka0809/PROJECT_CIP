@@ -1,0 +1,86 @@
+This program is an 'assimilator'; it handles completed jobs.
+Normally it is run as a daemon from config.xml.
+See: https://github.com/BOINC/boinc/wiki/BackendPrograms
+
+usage: ./bin/sample_dummy_assimilator [options]
+    Options:
+    --app name            Process jobs for the given application
+    [--sleep_interval X]  Sleep X seconds if no jobs to process (default 10)
+    [--mod N R]           Process jobs with mod(ID, N) == R
+    [--one_pass]          Do one DB enumeration, then exit
+    [--one_pass_N_WU N]   Process at most N jobs
+    [-d | --debug_level N]       Set verbosity level (1 to 4)
+    [--dont_update_db]    Don't update BOINC DB (for testing)
+    [-h | --help]                 Show this
+    [-v | --version]      Show version information
+
+2026-01-25 01:42:39.8231  Starting assimilator handler
+2026-01-25 01:42:39.8263  Assimilating pi_wu_1
+2026-01-25 01:42:39.8263  [pi_wu_1] No canonical result
+2026-01-25 01:42:39.8263 [warning] [pi_wu_1] Warning: too many total results
+2026-01-25 01:42:39.8536  Assimilated 1 workunits.
+2026-01-25 01:42:49.8729  Assimilating pi_wu_manual_3
+2026-01-25 01:42:49.8729  Found canonical result
+2026-01-25 01:42:49.9090  Assimilating pi_wu_auto_1_1769297368
+2026-01-25 01:42:49.9091  Found canonical result
+2026-01-25 01:42:49.9108  Assimilating pi_wu_auto_2_1769297368
+2026-01-25 01:42:49.9108  Found canonical result
+2026-01-25 01:42:49.9123  Assimilating pi_wu_auto_3_1769297368
+2026-01-25 01:42:49.9123  Found canonical result
+2026-01-25 01:42:49.9140  Assimilating pi_wu_auto_4_1769297368
+2026-01-25 01:42:49.9140  Found canonical result
+2026-01-25 01:42:49.9154  Assimilating pi_wu_auto_5_1769297368
+2026-01-25 01:42:49.9154  Found canonical result
+2026-01-25 01:42:49.9169  Assimilating pi_wu_auto_6_1769297368
+2026-01-25 01:42:49.9169  Found canonical result
+2026-01-25 01:42:49.9317  Assimilating pi_wu_auto_7_1769297368
+2026-01-25 01:42:49.9320  Found canonical result
+2026-01-25 01:42:49.9363  Assimilating pi_wu_auto_8_1769297368
+2026-01-25 01:42:49.9363  Found canonical result
+2026-01-25 01:42:49.9428  Assimilating pi_wu_auto_9_1769297368
+2026-01-25 01:42:49.9428  Found canonical result
+2026-01-25 01:42:49.9459  Assimilating pi_wu_auto_10_1769297368
+2026-01-25 01:42:49.9459  Found canonical result
+2026-01-25 01:42:49.9471  Assimilated 11 workunits.
+2026-01-25 01:47:19.0228  Starting assimilator handler
+2026-01-25 02:15:29.6264  Starting assimilator handler
+2026-01-25 02:44:56.4873  Starting assimilator handler
+2026-01-25 02:54:26.8253  Assimilating pi_wu_auto_1_1769301125
+2026-01-25 02:54:26.8254  Found canonical result
+2026-01-25 02:54:26.8571  Assimilated 1 workunits.
+2026-01-25 02:54:36.8611  Assimilating pi_wu_auto_2_1769301125
+2026-01-25 02:54:36.8611  Found canonical result
+2026-01-25 02:54:36.8950  Assimilating pi_wu_auto_3_1769301125
+2026-01-25 02:54:36.8950  Found canonical result
+2026-01-25 02:54:36.8967  Assimilating pi_wu_auto_4_1769301125
+2026-01-25 02:54:36.8967  Found canonical result
+2026-01-25 02:54:36.8984  Assimilating pi_wu_auto_5_1769301125
+2026-01-25 02:54:36.8984  Found canonical result
+2026-01-25 02:54:36.8998  Assimilating pi_wu_auto_6_1769301125
+2026-01-25 02:54:36.8998  Found canonical result
+2026-01-25 02:54:36.9012  Assimilating pi_wu_auto_7_1769301125
+2026-01-25 02:54:36.9012  Found canonical result
+2026-01-25 02:54:36.9026  Assimilating pi_wu_auto_8_1769301125
+2026-01-25 02:54:36.9026  Found canonical result
+2026-01-25 02:54:36.9039  Assimilating pi_wu_auto_9_1769301125
+2026-01-25 02:54:36.9039  Found canonical result
+2026-01-25 02:54:36.9054  Assimilating pi_wu_auto_10_1769301125
+2026-01-25 02:54:36.9054  Found canonical result
+2026-01-25 02:54:36.9065  Assimilated 9 workunits.
+2026-01-26 10:52:20.3065  Assimilating pi_copy_1_1769417271
+2026-01-26 10:52:20.3071  Found canonical result
+2026-01-26 10:52:20.3123  Assimilating pi_copy_2_1769417271
+2026-01-26 10:52:20.3124  Found canonical result
+2026-01-26 10:52:20.3161  Assimilating pi_copy_3_1769417271
+2026-01-26 10:52:20.3161  Found canonical result
+2026-01-26 10:52:20.3245  Assimilated 3 workunits.
+2026-01-26 10:52:30.3294  Assimilating pi_copy_4_1769417271
+2026-01-26 10:52:30.3295  Found canonical result
+2026-01-26 10:52:30.3632  Assimilating pi_copy_5_1769417271
+2026-01-26 10:52:30.3632  Found canonical result
+2026-01-26 10:52:30.3649  Assimilated 2 workunits.
+2026-01-26 10:57:14.4689  Quitting because trigger file './stop_daemons' is present
+nohup: ignoring input
+2026-01-26 10:58:53.4193  Starting assimilator handler
+GOT STOP SIGNAL
+2026-01-27 13:14:22.1022  Quitting due to SIGHUP
