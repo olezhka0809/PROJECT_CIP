@@ -1,0 +1,6 @@
+[submodule "SEAL"]
+	path = SEAL
+	url = https://github.com/microsoft/SEAL.git
+[submodule "work/boinc_tutorial"]
+	path = work/boinc_tutorial
+	url = https://github.com/cherubimro/boinc_tutorial.git
